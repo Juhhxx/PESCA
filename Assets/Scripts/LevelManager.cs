@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviourDDOL<LevelManager>
 {
-    [SerializeField][Expandable] private List<LevelProfile> _levels;
+    [SerializeField][Scene] private string _mainMenuScene;
+    [SerializeField][Expandable] private LevelList _levels;
     private LevelProfile _currentLevel;
     private Queue<LevelProfile> _levelQueue;
 
@@ -18,13 +19,12 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
 
     private void Start()
     {
-        _levelQueue = new Queue<LevelProfile>(_levels);
+        _levelQueue = new Queue<LevelProfile>(_levels.LevelOrder);
 
         SetUpEvents();
 
         SceneManager.sceneLoaded += (Scene s, LoadSceneMode m) => SetUpEvents();
         SceneManager.sceneUnloaded += (Scene s) => TurnOffEvents();
-
     }
 
     [Button(enabledMode: EButtonEnableMode.Playmode)]
@@ -32,8 +32,8 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     {
         if (_levelQueue.Count == 0)
         {
-            _levelQueue = new Queue<LevelProfile>(_levels);
-            SceneManager.LoadScene("MainMenu");
+            _levelQueue = new Queue<LevelProfile>(_levels.LevelOrder);
+            SceneManager.LoadScene(_mainMenuScene);
             return;
         }
 
