@@ -1,0 +1,14 @@
+using System;
+using UnityEngine;
+using UnityEngine.Events;
+
+[Serializable]
+public class DialogueSentence
+{
+    [field: TextArea]
+    [field: SerializeField] public string Dialogue { get; private set; }
+    [field: SerializeField] public AudioClip Audio { get; private set; }
+    [field: SerializeField] public bool FromRight { get; private set; }
+    [field: SerializeField] public float TimeToNext { get; private set; }
+    public UnityEvent OnDialoguePlayed;
+}
