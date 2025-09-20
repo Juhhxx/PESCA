@@ -12,8 +12,11 @@ public class BalanceMinigame : MiniGame
     [SerializeField] float maxRandomTime = 1.5f;
     [SerializeField] float negRandomAngVel = -40;
     [SerializeField] float posRandomAngVel = 40;
+    [SerializeField] float raceTime = 20;
     void Start()
     {
+        timerScript = new Timer(raceTime, Timer.TimerReset.Manual);
+        // timerScript.OnTimerDone += 
         StartCoroutine(RandomInbalance(personRigidbody1));
         StartCoroutine(RandomInbalance(personRigidbody2));
     }
