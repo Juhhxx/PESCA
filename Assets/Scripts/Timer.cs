@@ -11,6 +11,7 @@ public class Timer
     private TimerReset _timerReset;
 
     public event Action OnTimerDone;
+    private bool _done = false;
 
     public void CountTimer()
     {
@@ -20,13 +21,16 @@ public class Timer
         }
         else if (_time <= 0)
         {
-            OnTimerDone?.Invoke();
+            if (!_done) OnTimerDone?.Invoke();
             if (_timerReset == TimerReset.Automatic) ResetTimer();
+
+            _done = true;
         }
     }
     public void ResetTimer()
     {
         _time = _maxTime;
+        _done = false;
     }
 
     public Timer(float time, TimerReset timerReset = TimerReset.Automatic)
