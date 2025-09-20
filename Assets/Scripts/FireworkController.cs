@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class FireworkController : MonoBehaviour
@@ -6,6 +7,7 @@ public class FireworkController : MonoBehaviour
     int fireworkCount = 0;
     bool fireworksOngoing = true;
     int randomFireworksThrown;
+    [SerializeField] TextMeshProUGUI counterText;
     [SerializeField] KeyCode countKeyCode;
     void Start()
     {
@@ -20,6 +22,17 @@ public class FireworkController : MonoBehaviour
         if (Input.GetKeyDown(countKeyCode))
         {
             fireworkCount++;
+            if (fireworkCount < 10)
+            {
+                counterText.text = "0" + fireworkCount.ToString();
+                counterText.GetComponent<TMPPopWave>().PlayPop();
+            }
+            else
+            {
+                counterText.text = fireworkCount.ToString();
+                counterText.GetComponent<TMPPopWave>().PlayPop();
+            }
+
         }
     }
     public int CloserToCount()
@@ -34,7 +47,8 @@ public class FireworkController : MonoBehaviour
         fireworksOngoing = true;
         for (int i = 0; i < randomFireworksThrown; i++)
         {
-
+            yield return new WaitForSecondsRealtime(Random.Range(.5f, 1.5f));
+            //Instanciate here firework prefab
         }
         yield return new WaitForSecondsRealtime(3);
         fireworksOngoing = false;
@@ -43,4 +57,5 @@ public class FireworkController : MonoBehaviour
     {
         return fireworksOngoing;
     }
+    
 }
