@@ -46,9 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogueStack: {fileID: 3906765673415317459}
-  _lerpSpeed: 1000
+  _lerpSpeed: 1500
   _rightDialoguePrefab: {fileID: 6158210942795762692, guid: f338ae82e21fa464ca50ad4d8d19d532, type: 3}
   _leftDialoguePrefab: {fileID: 8834960248075244314, guid: ee35393d274c3e04b873790fac2c36e2, type: 3}
+  _bothDialoguePrefab: {fileID: 4495779193662655163, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+  _centerDialoguePrefab: {fileID: 8564825907311691858, guid: 1f9e0dbd6a6c9ff4dacfb02dd1d5e27d, type: 3}
   _dialoguesList: []
 --- !u!1 &1978348221387386501
 GameObject:

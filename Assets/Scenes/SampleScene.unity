@@ -496,31 +496,58 @@ MonoBehaviour:
   _dialogues:
   - <DialogueTag>k__BackingField: dialog_a
     <Sentences>k__BackingField:
-    - <Dialogue>k__BackingField: Hey, are you the person who cursed woody cheeseburger
-        my sister?
+    - <Dialogue>k__BackingField: "Ser\xE1 desta J\xFAlio?!\r\n"
       <Audio>k__BackingField: {fileID: 0}
-      <FromRight>k__BackingField: 0
+      <Side>k__BackingField: 0
       <TimeToNext>k__BackingField: 3.5
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: Yep, that's lil old me!
+    - <Dialogue>k__BackingField: "Tenho a certeza, Pedro\u2026\r\n"
       <Audio>k__BackingField: {fileID: 0}
-      <FromRight>k__BackingField: 1
+      <Side>k__BackingField: 1
       <TimeToNext>k__BackingField: 1.5
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: Oh ok...
+    - <Dialogue>k__BackingField: Eu sinto o nosso potencial.
       <Audio>k__BackingField: {fileID: 0}
-      <FromRight>k__BackingField: 0
+      <Side>k__BackingField: 0
       <TimeToNext>k__BackingField: 1
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: LESSSSSSSSS GOOOOOOOOOOO
+    - <Dialogue>k__BackingField: O HIGH FIVE PERFEITO!!!
       <Audio>k__BackingField: {fileID: 0}
-      <FromRight>k__BackingField: 1
+      <Side>k__BackingField: 2
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "V\xC1 V\xC1 PEDRO!"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xDALIO PARA QUIETO!!\r\n"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "OLHA PO MEU COTOVELO PEDRO, P\xD3 COTOVELOOOO!!\r\n"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: ISTO ]E UM IDALOGO NO MEIO!
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
       <TimeToNext>k__BackingField: 2
       OnDialoguePlayed:
         m_PersistentCalls:
@@ -592,9 +619,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3833203847358997317, guid: 8f2283c9f62001745aefecc274dbd1fa, type: 3}
-      propertyPath: _lerpSpeed
-      value: 1500
+    - target: {fileID: 4922281448618449791, guid: 8f2283c9f62001745aefecc274dbd1fa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,6 +12,8 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
     [SerializeField] private GameObject _rightDialoguePrefab;
     [SerializeField] private GameObject _leftDialoguePrefab;
+    [SerializeField] private GameObject _bothDialoguePrefab;
+    [SerializeField] private GameObject _centerDialoguePrefab;
 
     [SerializeField][ReadOnly] private List<GameObject> _dialoguesList;
 
@@ -36,7 +38,30 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
     {
         Debug.Log(sentence.Dialogue);
 
-        GameObject prefab = sentence.FromRight ? _rightDialoguePrefab : _leftDialoguePrefab;
+        GameObject prefab;
+
+        switch (sentence.Side)
+        {
+            case DialogueSentence.DialogueSide.Left:
+                prefab = _leftDialoguePrefab;
+                break;
+
+            case DialogueSentence.DialogueSide.Right:
+                prefab = _rightDialoguePrefab;
+                break;
+
+            case DialogueSentence.DialogueSide.Both:
+                prefab = _bothDialoguePrefab;
+                break;
+
+            case DialogueSentence.DialogueSide.Center:
+                prefab = _centerDialoguePrefab;
+                break;
+
+            default:
+                prefab = null;
+                break;
+        }
 
         StartCoroutine(AddBubble(prefab, sentence));
     }
@@ -66,7 +91,9 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
         GameObject textBubble = Instantiate(bubble, _dialogueStack.transform);
 
-        textBubble.GetComponentInChildren<TextMeshProUGUI>().text = sentence.Dialogue;
+        TextMeshProUGUI[] tmps = textBubble.GetComponentsInChildren<TextMeshProUGUI>();
+
+        foreach (TextMeshProUGUI tmp in tmps) tmp.text = sentence.Dialogue;
 
         _dialoguesList.Add(textBubble);
     }
