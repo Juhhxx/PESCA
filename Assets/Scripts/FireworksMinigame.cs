@@ -26,5 +26,6 @@ public class FireworksMinigame : MiniGame
         int countPlayer2 = fireworkControllerScript2.CloserToCount();
         if (countPlayer1 < countPlayer2) playerOneWins = true;
         else playerTwoWins = true;
+        MinigameEnd();
     }
 }
