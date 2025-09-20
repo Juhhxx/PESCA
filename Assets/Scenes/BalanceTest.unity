@@ -432,7 +432,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -598,6 +598,7 @@ MonoBehaviour:
   maxRandomTime: 1.5
   negRandomAngVel: -40
   posRandomAngVel: 40
+  raceTime: 20
 --- !u!1 &1094867690
 GameObject:
   m_ObjectHideFlags: 0
