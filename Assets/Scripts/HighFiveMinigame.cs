@@ -1,6 +1,5 @@
-using Unity.VisualScripting;
+using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class HighFiveMinigame : MiniGame
 {
@@ -13,11 +12,18 @@ public class HighFiveMinigame : MiniGame
     [Header("Values")]
     [SerializeField] float highFiveSpeed;
     [SerializeField] float rotateSpeed = 2f;
+    [SerializeField] float raiseSpeed = 2f;
     [SerializeField] float minAngle1 = -140;
     [SerializeField] float minAngle2 = -25;
     [SerializeField] float maxAngle1 = 25;
     [SerializeField] float maxAngle2 = 140;
+    [SerializeField] float minHeight = 0;
+    [SerializeField] float maxHeight = 0;
     [SerializeField] float timeLimit = 7;
+    [SerializeField] float heightAccuracyThreshold = 1f;
+    [SerializeField] float angleAccuracyThreshold = 30f;
+    bool isHeightAccurate = false;
+    bool isAngleAccurate = false;
     Timer timerScript;
     bool hasHighFived = false;
     public override void StartMinigame()
@@ -39,6 +45,8 @@ public class HighFiveMinigame : MiniGame
         {
             RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);
             RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2);
+            RaiseLowerHand(playerArm1, "VerticalPlayer1", minHeight, maxHeight);
+            RaiseLowerHand(playerArm2, "VerticalPlayer2", minHeight, maxHeight);
         }
         timerScript.CountTimer();
     }
@@ -54,10 +62,39 @@ public class HighFiveMinigame : MiniGame
 
         givenHinge.localEulerAngles = new Vector3(givenHinge.localEulerAngles.x, givenHinge.localEulerAngles.y, zRotation);
     }
+    void RaiseLowerHand(Transform givenArm, string playerAxis, float minHeightAllowed, float maxHeightAllowed)
+    {
+        float raiseAmount = raiseSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
+        givenArm.Translate(0, raiseAmount, 0);
+        if (givenArm.position.y > maxHeight)
+        {
+            givenArm.position = new Vector3(givenArm.position.x, maxHeight, givenArm.position.z);
+        }
+        else if (givenArm.position.y < minHeight)
+        {
+            givenArm.position = new Vector3(givenArm.position.x, minHeight, givenArm.position.z);
+        }
+    }
     void HighFive()
     {
-        Debug.Log("HighFive brother man!!");
-        animatorController.SetBool("highFiveTime", true);
-        hasHighFived = true;
+        if (!hasHighFived)
+        {
+            Debug.Log("HighFive brother man!!");
+            animatorController.SetTrigger("highFiveTime");
+            hasHighFived = true;
+            CalculateAccuracyScore();
+        }
+    }
+    void CalculateAccuracyScore()
+    {
+        float heightDiff = Mathf.Abs(playerArm1.position.y - playerArm2.position.y);
+        if (heightDiff < heightAccuracyThreshold) isHeightAccurate = true;
+
+        float angleDiff = Mathf.Abs(Mathf.DeltaAngle(armHinge1.rotation.eulerAngles.z, armHinge2.rotation.eulerAngles.z));
+        if (angleDiff < angleAccuracyThreshold) isAngleAccurate = true;
+
+        if (isHeightAccurate && isAngleAccurate) Debug.Log("Perfect HighFive!");
+        else if (isHeightAccurate ^ isAngleAccurate) Debug.Log("That was alright!");
+        else Debug.Log("Yeah, not great...");
     }
 }
