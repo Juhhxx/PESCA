@@ -1,12 +1,16 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class HighFiveMinigame : MiniGame
 {
+    [Header("References")]
     [SerializeField] Transform armHinge1;
     [SerializeField] Transform armHinge2;
     [SerializeField] Transform playerArm1;
     [SerializeField] Transform playerArm2;
+    [SerializeField] Animator animatorController;
+    [Header("Values")]
     [SerializeField] float highFiveSpeed;
     [SerializeField] float rotateSpeed = 2f;
     [SerializeField] float minAngle1 = -140;
@@ -15,6 +19,7 @@ public class HighFiveMinigame : MiniGame
     [SerializeField] float maxAngle2 = 140;
     [SerializeField] float timeLimit = 7;
     Timer timerScript;
+    bool hasHighFived = false;
     public override void StartMinigame()
     {
 
@@ -30,8 +35,11 @@ public class HighFiveMinigame : MiniGame
     }
     void Update()
     {
-        RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);
-        RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2);
+        if (!hasHighFived)
+        {
+            RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);
+            RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2);
+        }
         timerScript.CountTimer();
     }
     void RotateHand(Transform givenHinge, string playerAxis, float minAngleAllowed, float maxAngleAllowed)
@@ -49,7 +57,7 @@ public class HighFiveMinigame : MiniGame
     void HighFive()
     {
         Debug.Log("HighFive brother man!!");
-        playerArm1.Translate(highFiveSpeed, 0, 0);
-        playerArm2.Translate(-highFiveSpeed, 0, 0);
+        animatorController.SetBool("highFiveTime", true);
+        hasHighFived = true;
     }
 }
