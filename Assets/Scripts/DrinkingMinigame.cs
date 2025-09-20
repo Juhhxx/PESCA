@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class DrinkingMinigame : MonoBehaviour
+public class DrinkingMinigame : MiniGame
 {
     [SerializeField] DrinkingController drinkingControllerScript1;
     [SerializeField] DrinkingController drinkingControllerScript2;
@@ -31,5 +31,15 @@ public class DrinkingMinigame : MonoBehaviour
     public bool IsGameOngoing()
     {
         return gameIsOngoing;
+    }
+
+    public override void StartMinigame()
+    {
+
+    }
+
+    public override void ResetMinigame()
+    {
+
     }
 }
