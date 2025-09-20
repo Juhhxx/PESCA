@@ -1,5 +1,5 @@
-using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HighFiveMinigame : MiniGame
 {
@@ -9,6 +9,9 @@ public class HighFiveMinigame : MiniGame
     [SerializeField] Transform playerArm1;
     [SerializeField] Transform playerArm2;
     [SerializeField] Animator animatorController;
+    [SerializeField] public UnityEvent OnPerfectHighFive;
+    [SerializeField] public UnityEvent OnAlrightHighFive;
+    [SerializeField] public UnityEvent OnBadHighFive;
     [Header("Values")]
     [SerializeField] float highFiveSpeed;
     [SerializeField] float rotateSpeed = 2f;
@@ -38,6 +41,13 @@ public class HighFiveMinigame : MiniGame
     {
         timerScript = new Timer(timeLimit, Timer.TimerReset.Manual);
         timerScript.OnTimerDone += HighFive;
+        StartHandSetUp(playerArm1, armHinge1, minAngle1, maxAngle1);
+        StartHandSetUp(playerArm2, armHinge2, minAngle2, maxAngle2);
+    }
+    void StartHandSetUp(Transform givenArm, Transform givenHinge, float givenMinAngle, float givenMaxAngle)
+    {
+        givenArm.position = new Vector3(givenArm.position.x, Random.Range(minHeight, maxHeight), 0);
+        givenHinge.rotation = Quaternion.Euler(0, 0, Random.Range(givenMinAngle, givenMaxAngle));
     }
     void Update()
     {
@@ -45,8 +55,8 @@ public class HighFiveMinigame : MiniGame
         {
             RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);
             RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2);
-            RaiseLowerHand(playerArm1, "VerticalPlayer1", minHeight, maxHeight);
-            RaiseLowerHand(playerArm2, "VerticalPlayer2", minHeight, maxHeight);
+            RaiseLowerHand(playerArm1, "VerticalPlayer1");
+            RaiseLowerHand(playerArm2, "VerticalPlayer2");
         }
         timerScript.CountTimer();
     }
@@ -62,7 +72,7 @@ public class HighFiveMinigame : MiniGame
 
         givenHinge.localEulerAngles = new Vector3(givenHinge.localEulerAngles.x, givenHinge.localEulerAngles.y, zRotation);
     }
-    void RaiseLowerHand(Transform givenArm, string playerAxis, float minHeightAllowed, float maxHeightAllowed)
+    void RaiseLowerHand(Transform givenArm, string playerAxis)
     {
         float raiseAmount = raiseSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
         givenArm.Translate(0, raiseAmount, 0);
