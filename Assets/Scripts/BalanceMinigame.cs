@@ -13,12 +13,16 @@ public class BalanceMinigame : MiniGame
     [SerializeField] float negRandomAngVel = -40;
     [SerializeField] float posRandomAngVel = 40;
     [SerializeField] float raceTime = 20;
-    void Start()
+    public override void StartMinigame()
     {
         timerScript = new Timer(raceTime, Timer.TimerReset.Manual);
-        // timerScript.OnTimerDone += 
+        timerScript.OnTimerDone += EndRace;
         StartCoroutine(RandomInbalance(personRigidbody1));
         StartCoroutine(RandomInbalance(personRigidbody2));
+    }
+    public override void ResetMinigame()
+    {
+        
     }
     void Update()
     {
@@ -39,15 +43,10 @@ public class BalanceMinigame : MiniGame
     void BalanceSelf(Rigidbody2D givenRigidbody, string playerAxis)
     {
         float balanceAmount = balanceSpeed * Input.GetAxis(playerAxis);
-        givenRigidbody.angularVelocity += balanceAmount; 
+        givenRigidbody.angularVelocity += balanceAmount;
     }
-    public override void StartMinigame()
+    void EndRace()
     {
-
-    }
-
-    public override void ResetMinigame()
-    {
-
+        MinigameEnd();
     }
 }

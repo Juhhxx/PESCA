@@ -8,9 +8,13 @@ public class DrinkingMinigame : MiniGame
     bool playerOneWins = false;
     bool playerTwoWins = false;
     bool gameIsOngoing = false;
-    void Start()
+    public override void StartMinigame()
     {
         StartCoroutine(DrinkGameTime());
+    }
+    public override void ResetMinigame()
+    {
+
     }
     IEnumerator DrinkGameTime()
     {
@@ -27,19 +31,11 @@ public class DrinkingMinigame : MiniGame
         int drinksPlayerTwo = drinkingControllerScript2.HowManyDrinks();
         if (drinksPlayerOne > drinksPlayerTwo) playerOneWins = true;
         if (drinksPlayerOne < drinksPlayerTwo) playerTwoWins = true;
+
+        MinigameEnd();
     }
     public bool IsGameOngoing()
     {
         return gameIsOngoing;
-    }
-
-    public override void StartMinigame()
-    {
-
-    }
-
-    public override void ResetMinigame()
-    {
-
     }
 }
