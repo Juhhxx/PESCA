@@ -1,16 +1,30 @@
+using System.Collections;
 using UnityEngine;
 
-public class FireworksMinigame : MonoBehaviour
+public class FireworksMinigame : MiniGame
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    bool playerOneWins = false;
+    bool playerTwoWins = false;
+    [SerializeField] FireworkController fireworkControllerScript1;
+    [SerializeField] FireworkController fireworkControllerScript2;
+    public override void StartMinigame()
     {
-        
+
     }
 
-    // Update is called once per frame
+    public override void ResetMinigame()
+    {
+
+    }
     void Update()
     {
-        
+        if (!fireworkControllerScript1.AreFireworksOngoing() && !fireworkControllerScript2.AreFireworksOngoing()) CompareCounts();
+    }
+    void CompareCounts()
+    {
+        int countPlayer1 = fireworkControllerScript1.CloserToCount();
+        int countPlayer2 = fireworkControllerScript2.CloserToCount();
+        if (countPlayer1 < countPlayer2) playerOneWins = true;
+        else playerTwoWins = true;
     }
 }
