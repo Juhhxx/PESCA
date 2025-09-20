@@ -25,6 +25,34 @@ public class TMPPopWave : MonoBehaviour
         }
     }
 
+    public void PlayWave()
+    {
+        if (!isPopping)
+        {
+            StartCoroutine(WaveCoroutine());
+        }
+    }
+
+private IEnumerator WaveCoroutine()
+    {
+        isPopping = true;
+        tmpText.ForceMeshUpdate();
+        TMP_TextInfo textInfo = tmpText.textInfo;
+
+        for (int i = 0; i < textInfo.characterCount; i++)
+        {
+            if (textInfo.characterInfo[i].isVisible)
+            {
+                // Start pop for this character
+                StartCoroutine(PopCharacter(i));
+                yield return new WaitForSeconds(delayBetweenChars);
+            }
+        }
+
+        // Wait until the last pop finishes
+        yield return new WaitForSeconds(popDuration);
+    }
+
     private IEnumerator PopWaveCoroutine()
     {
         isPopping = true;
