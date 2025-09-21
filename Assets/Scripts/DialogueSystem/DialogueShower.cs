@@ -93,7 +93,13 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
         TextMeshProUGUI[] tmps = textBubble.GetComponentsInChildren<TextMeshProUGUI>();
 
-        foreach (TextMeshProUGUI tmp in tmps) tmp.text = sentence.Dialogue;
+        if (sentence.DifferentDialog)
+        {
+            tmps[0].text = sentence.Dialogue;
+            tmps[1].text = sentence.Dialogue2;
+        }
+        else
+            foreach (TextMeshProUGUI tmp in tmps) tmp.text = sentence.Dialogue;
 
         if (sentence.Dialogue == "")
         {
