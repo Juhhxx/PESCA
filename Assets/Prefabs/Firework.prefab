@@ -293,8 +293,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   shakeDuration: 0.2
   shakeMagnitude: 0.1
-  timerRange: {x: 10, y: 10}
-  secondsToDestroy: 4
+  timerRange: {x: 0.7, y: 1.5}
+  secondsToDestroy: 8
   fireworkRigidbody: {fileID: -8017594674602945056}
 --- !u!50 &-8017594674602945056
 Rigidbody2D:
