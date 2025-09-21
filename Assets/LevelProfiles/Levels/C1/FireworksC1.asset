@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FireworksC1
   m_EditorClassIdentifier: 
   _levelScene: FireworksC1
-  <StartMinigame>k__BackingField: 0
+  <StartMinigame>k__BackingField: 1
   <StartDelay>k__BackingField: 0
   <NextSceneDelay>k__BackingField: 0
   <BackgroundMusic>k__BackingField: {fileID: 0}
