@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     private LevelProfile _currentLevel;
     private Queue<LevelProfile> _levelQueue;
     private MiniGame _currentMinigame;
+    private DialogueRunner _currentDialogueRunner;
     private Animator _anim;
 
     private void Awake()
@@ -72,6 +73,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         Debug.Log($"LOADED LEVEL {level}");
 
         if (level.StartMinigame) StartCoroutine(StartLevelCR(level.StartDelay));
+        _currentDialogueRunner?.PlayDialogue();
         _anim.SetTrigger("FadeIn");
     }
 
@@ -96,6 +98,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     private void SetUpEvents()
     {
         _currentMinigame = FindAnyObjectByType<MiniGame>();
+        _currentDialogueRunner = FindAnyObjectByType<DialogueRunner>();
 
         if (_currentMinigame != null)
         {
