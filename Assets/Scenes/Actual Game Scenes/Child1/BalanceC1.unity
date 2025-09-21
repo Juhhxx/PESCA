@@ -991,7 +991,7 @@ MonoBehaviour:
   posRandomAngVel1: 20
   negRandomAngVel2: -20
   posRandomAngVel2: 20
-  raceTime: 20
+  raceTime: 21
   canControl_P1: 1
   canControl_P2: 1
 --- !u!4 &639159954
@@ -1924,6 +1924,38 @@ PrefabInstance:
     - target: {fileID: 2317851609542294542, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[0].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[1].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[2].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[3].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[4].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[5].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[6].<TimeToNext>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[1].<Sentences>k__BackingField.Array.data[7].<TimeToNext>k__BackingField
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8385174570138827597, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
       propertyPath: m_Name
