@@ -179,8 +179,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hey are you the guy who cursed woody cheeseburger my sister?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 60a17c73856d1304ab646cd5c754158c, type: 2}
-  m_sharedMaterial: {fileID: 7399945789318902305, guid: 60a17c73856d1304ab646cd5c754158c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0910df740dbc266448b080dadf01416f, type: 2}
+  m_sharedMaterial: {fileID: -4745963521089960707, guid: 0910df740dbc266448b080dadf01416f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -204,8 +204,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3901950993703936142, guid: ee35393d274c3e04b873790fac2c36e2, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278209146
+      value: 4278346916
       objectReference: {fileID: 0}
     - target: {fileID: 6108498632250321472, guid: ee35393d274c3e04b873790fac2c36e2, type: 3}
       propertyPath: m_Controller

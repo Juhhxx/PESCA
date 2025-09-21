@@ -6,7 +6,7 @@ public class DialogueManager : MonoBehaviourDDOL<DialogueManager>
 {
     [SerializeField] private List<DialogueBlock> _dialogues;
 
-    private void Start()
+    private void Awake()
     {
         base.SingletonCheck(this);
     }

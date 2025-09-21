@@ -59,7 +59,6 @@ public class FireworkController : MonoBehaviour
     IEnumerator ThrowFireworks()
     {
         randomFireworksThrown = UnityEngine.Random.Range(15, 25);
-        yield return new WaitForSecondsRealtime(2);
         fireworksOngoing = true;
         for (int i = 0; i < randomFireworksThrown; i++)
         {

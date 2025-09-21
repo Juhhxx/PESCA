@@ -991,7 +991,7 @@ MonoBehaviour:
   posRandomAngVel1: 20
   negRandomAngVel2: -20
   posRandomAngVel2: 20
-  raceTime: 21
+  raceTime: 25
   canControl_P1: 1
   canControl_P2: 1
 --- !u!4 &639159954

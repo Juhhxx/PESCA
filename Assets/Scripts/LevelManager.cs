@@ -61,6 +61,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         yield return new WaitForSeconds(waitTime);
         
         _anim.SetTrigger("FadeOut");
+        Debug.Log("DOING FADE OUT");
         
         _ = LoadLevel(level);
     }
@@ -75,9 +76,11 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         Debug.Log($"LOADED LEVEL {level}");
 
         if (level.StartMinigame) StartCoroutine(StartLevelCR(level.StartDelay));
-        _currentDialogueRunner?.PlayDialogue();
+
         _anim.SetTrigger("FadeIn");
 
+        Debug.Log("DOING FADE IN");
+        
         if (_backgroundMusic != level.BackgroundMusic)
         {
             _audioSource.clip = level.BackgroundMusic;
@@ -116,6 +119,8 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         {
             _currentMinigame.OnMinigameEnd += GoToNextLevel;
             Debug.Log($"Subscribed to OnMingameEnd in {_currentMinigame.name}");
+
+            _currentDialogueRunner?.PlayDialogue();
         }
     }
     private void TurnOffEvents()

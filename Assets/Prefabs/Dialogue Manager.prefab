@@ -50,7 +50,7 @@ MonoBehaviour:
     - <Dialogue>k__BackingField: "Ser\xE1 desta J\xFAlio?!\r\n"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
-      <Side>k__BackingField: 0
+      <Side>k__BackingField: 1
       <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
@@ -59,7 +59,7 @@ MonoBehaviour:
     - <Dialogue>k__BackingField: "Tenho a certeza, Pedro\u2026\r\n"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
-      <Side>k__BackingField: 1
+      <Side>k__BackingField: 0
       <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
@@ -104,7 +104,7 @@ MonoBehaviour:
     - <Dialogue>k__BackingField: "V\xC1 V\xC1 PEDRO!"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
-      <Side>k__BackingField: 1
+      <Side>k__BackingField: 0
       <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 4
       OnDialoguePlayed:
@@ -113,7 +113,7 @@ MonoBehaviour:
     - <Dialogue>k__BackingField: "J\xDALIO P\xC1RA QUIETO!!\r\n"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
-      <Side>k__BackingField: 0
+      <Side>k__BackingField: 1
       <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 4
       OnDialoguePlayed:
@@ -122,7 +122,7 @@ MonoBehaviour:
     - <Dialogue>k__BackingField: "OLHA PO MEU COTOVELO PEDRO, P\xD3 COTOVELOOOO!!\r\n"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
-      <Side>k__BackingField: 1
+      <Side>k__BackingField: 0
       <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 4
       OnDialoguePlayed:
