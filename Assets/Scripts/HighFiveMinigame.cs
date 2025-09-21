@@ -12,7 +12,8 @@ public class HighFiveMinigame : MiniGame
 
     [Header("Values")]
     [SerializeField] float highFiveSpeed;
-    [SerializeField] float rotateSpeed = 2f;
+    [SerializeField] float rotateSpeed1 = 2f;
+    [SerializeField] float rotateSpeed2 = 2f;
     [SerializeField] float raiseSpeed = 2f;
     [SerializeField] float minAngle1 = -140;
     [SerializeField] float minAngle2 = -25;
@@ -58,22 +59,22 @@ public class HighFiveMinigame : MiniGame
 
         if (!hasHighFived)
         {
-            RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);
-            RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2);
+            RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1, rotateSpeed1);
+            RotateHand(armHinge2, "HorizontalPlayer2", minAngle2, maxAngle2, rotateSpeed2);
             RaiseLowerHand(playerArm1, "VerticalPlayer1");
             RaiseLowerHand(playerArm2, "VerticalPlayer2");
         }
         timerScript.CountTimer();
     }
-    void RotateHand(Transform givenHinge, string playerAxis, float minAngleAllowed, float maxAngleAllowed)
+    void RotateHand(Transform givenHinge, string playerAxis, float givenMinAngleAllowed, float givenMaxAngleAllowed, float givenRotateSpeed)
     {
-        float rotateAmount = rotateSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
+        float rotateAmount = givenRotateSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
         givenHinge.Rotate(0, 0, rotateAmount);
 
         float zRotation = givenHinge.localEulerAngles.z;
         if (zRotation > 180) zRotation -= 360;
 
-        zRotation = Mathf.Clamp(zRotation, minAngleAllowed, maxAngleAllowed);
+        zRotation = Mathf.Clamp(zRotation, givenMinAngleAllowed, givenMaxAngleAllowed);
 
         givenHinge.localEulerAngles = new Vector3(givenHinge.localEulerAngles.x, givenHinge.localEulerAngles.y, zRotation);
     }
@@ -115,7 +116,7 @@ public class HighFiveMinigame : MiniGame
         {
             //METE AQUI O SOOOOMMMMMMM
             Instantiate(perfectHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
-            ScreenShakeManager.Instance.Shake(.5f, .5f);
+            ScreenShakeManager.Instance.Shake(.2f, .2f);
             Debug.Log("Perfect HighFive!");
             OnHighFiveSmash.Invoke();
         }
@@ -123,14 +124,14 @@ public class HighFiveMinigame : MiniGame
         {
             //AQUI TBBBBB DANIEEEL
             Instantiate(okayHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
-            ScreenShakeManager.Instance.Shake(0.2f, 0.5f);
+            ScreenShakeManager.Instance.Shake(0.05f, 0.2f);
             Debug.Log("That was alright!");
             OnHighlowSmash.Invoke();
         }
         else
         {
             Debug.Log("Yeah, not great...");
-            ScreenShakeManager.Instance.Shake(0.1f, 0.2f);
+            ScreenShakeManager.Instance.Shake(0.01f, 0.05f);
         }
         MinigameEnd();
     }

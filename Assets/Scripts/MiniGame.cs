@@ -15,6 +15,5 @@ public abstract class MiniGame : MonoBehaviour
     public void MinigameEnd()
     {
         OnMinigameEnd?.Invoke();
-        OnMinigameEnd?.Invoke();
     }
 }
