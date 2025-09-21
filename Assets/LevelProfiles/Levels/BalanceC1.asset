@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c683803bfc70af941b6b1fc9f9d33777, type: 3}
   m_Name: BalanceC1
   m_EditorClassIdentifier: 
-  _levelScene: BalanceTest
+  _levelScene: MainMenu
+  <StartMinigame>k__BackingField: 0
+  <StartDelay>k__BackingField: 0
+  <NextSceneDelay>k__BackingField: 0
