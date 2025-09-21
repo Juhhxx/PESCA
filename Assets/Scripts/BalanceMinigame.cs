@@ -13,6 +13,8 @@ public class BalanceMinigame : MiniGame
     [SerializeField] float negRandomAngVel = -40;
     [SerializeField] float posRandomAngVel = 40;
     [SerializeField] float raceTime = 20;
+    public bool canControl_P1 = true;
+    public bool canControl_P2 = true;
     public override void StartMinigame()
     {
         timerScript = new Timer(raceTime, Timer.TimerReset.Manual);
@@ -26,8 +28,15 @@ public class BalanceMinigame : MiniGame
     }
     void Update()
     {
-        BalanceSelf(personRigidbody1, "HorizontalPlayer1");
-        BalanceSelf(personRigidbody2, "HorizontalPlayer2");
+        if (canControl_P1)
+        {
+            BalanceSelf(personRigidbody1, "HorizontalPlayer1");
+        }
+
+        if (canControl_P2)
+        {
+            BalanceSelf(personRigidbody2, "HorizontalPlayer2");
+        }
     }
     IEnumerator RandomInbalance(Rigidbody2D givenRigidbody)
     {
