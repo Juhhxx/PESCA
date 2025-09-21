@@ -1,6 +1,6 @@
-using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 public class DrinkingController : MonoBehaviour
 {
     [SerializeField] KeyCode getDrinkKeyCode;
@@ -14,24 +14,29 @@ public class DrinkingController : MonoBehaviour
     [SerializeField] Sprite emptySprite;
     [SerializeField] Sprite fullSprite;
     [SerializeField] Transform trash;
+    Rigidbody2D drinkRigidbody;
     private List<GameObject> squishTargets = new List<GameObject>();
     int drinksTaken = 0;
     bool noDrinkPresent = true;
     GameObject currentDrink;
     Vector3 drinkSpawnPoint;
+    [SerializeField] Vector2 drinkThrowForce;
+    [SerializeField] float drinkRotationForce;
     private float t;
     private float speed = 1;
+    bool canClick = true;
 
     void Update()
     {
+        Debug.Log($"{hasClickedGetDrink}, {hasClickedDrinkAll}");
         if (drinkingMinigameScript.IsGameOngoing())
         {
             if (noDrinkPresent)
             {
+                canClick = true;
                 noDrinkPresent = false;
-                // Instantiate(Boobs);
-                currentDrink = Instantiate(drinkObject, transform.position + new Vector3(0, 500, 0), Quaternion.identity);
-                //squishTargets.Add(currentDrink);
+                currentDrink = Instantiate(drinkObject, transform.position, Quaternion.identity);
+                drinkRigidbody = currentDrink.GetComponent<Rigidbody2D>();
                 drinkSpawnPoint = currentDrink.transform.position;
             }
             else
@@ -39,55 +44,47 @@ public class DrinkingController : MonoBehaviour
                 GetDrink();
             }
         }
-        t ++;
     }
     void GetDrink()
     {
-        if (getDrinkClicks == hasClickedGetDrink)
+        if (Input.GetKeyDown(getDrinkKeyCode) && canClick)
         {
-            //t = (Mathf.Sin(Time.time * speed) + 1f) / 2f;
-            //currentDrink.transform.position = Vector3.Lerp(drinkSpawnPoint, transform.position, t);
-            Debug.Log("Drink obtained!");
-            // if (currentDrink.transform.position == transform.position)
-            // {
-            //     DrinkItAll();
-            //     return;
-            // }
-            currentDrink.transform.position = transform.position;
-            DrinkItAll();
-            
+            Debug.Log("Check succesful");
+            hasClickedGetDrink += 1;
         }
-        if (Input.GetKeyDown(getDrinkKeyCode))
+        if (getDrinkClicks <= hasClickedGetDrink)
         {
-            //instantiate a sprite of a button that has an animation of the button to click to pull a drink
-            hasClickedGetDrink++;
+            Debug.Log("Drink obtained!");
+            DrinkItAll();
         }
     }
     void DrinkItAll()
     {
-        if (Input.GetKeyDown(drinkAllKeyCode))
+        if (Input.GetKeyDown(drinkAllKeyCode) && canClick)
         {
             hasClickedDrinkAll++;
-            // foreach (var target in squishTargets)
-            // {
-            //     if (target != null)
-            //         target.GetComponent<SquishEffect>().PlaySquish();
-            // }
+            ScreenShakeManager.Instance.Shake(0.3f, 0.15f);
             Debug.Log(drinkAllClicks);
         }
         if (drinkAllClicks == hasClickedDrinkAll)
         {
-            //squishTargets.Remove(currentDrink);
-            currentDrink.GetComponent<SpriteRenderer>().sprite = emptySprite;
-            //t = (Mathf.Sin(Time.time * speed) + 1f) / 2f;
-            currentDrink.transform.position = Vector3.Lerp(transform.position, trash.position, t);
-            
+            currentDrink.GetComponentInChildren<SpriteRenderer>().sprite = emptySprite;
+            StartCoroutine(ThrowCan(drinkRigidbody));
             Debug.Log("Drink finished!");
-            noDrinkPresent = true;
             drinksTaken++;
-            hasClickedDrinkAll = 0;
-            hasClickedGetDrink = 0;
+            canClick = false;
         }
+    }
+    IEnumerator ThrowCan(Rigidbody2D rb)
+    {
+        rb.gravityScale = 1;
+        rb.AddTorque(drinkRotationForce);
+        rb.AddForce(drinkThrowForce);
+        yield return new WaitForSecondsRealtime(0.5f);
+        Destroy(rb.gameObject);
+        noDrinkPresent = true;
+        hasClickedDrinkAll = 0;
+        hasClickedGetDrink = 0;
     }
     public int HowManyDrinks()
     {

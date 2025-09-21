@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2687438726222128643}
   - component: {fileID: -8943639205495941140}
   m_Layer: 0
-  m_Name: Beer Can
+  m_Name: Juice Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,7 +151,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2686636952566528399, guid: f4e58432587e95940aa3abe3185e9c5d, type: 3}
+  m_Sprite: {fileID: 495386454769320475, guid: a51ccb430732e284b88c23f696fcb289, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
