@@ -81,11 +81,11 @@ public class HighFiveMinigame : MiniGame
     {
         float raiseAmount = raiseSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
         givenArm.Translate(0, raiseAmount, 0);
-        if (givenArm.localPosition.y > maxHeight)
+        if (givenArm.position.y > maxHeight)
         {
             givenArm.position = new Vector3(givenArm.position.x, maxHeight, givenArm.position.z);
         }
-        else if (givenArm.localPosition.y < minHeight)
+        else if (givenArm.position.y < minHeight)
         {
             givenArm.position = new Vector3(givenArm.position.x, minHeight, givenArm.position.z);
         }
