@@ -31,7 +31,7 @@ public class BalanceMinigame : MiniGame
     void Update()
     {
         if (!HasStarted) return;
-        
+
         if (canControl_P1)
         {
             BalanceSelf(personRigidbody1, "HorizontalPlayer1");
@@ -41,6 +41,8 @@ public class BalanceMinigame : MiniGame
         {
             BalanceSelf(personRigidbody2, "HorizontalPlayer2");
         }
+        
+        timerScript.CountTimer();
     }
     IEnumerator RandomInbalance(Rigidbody2D givenRigidbody, int player)
     {
