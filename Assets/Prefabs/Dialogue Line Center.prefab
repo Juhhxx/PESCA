@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1170265158541341665, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 16536e477ec2bfd46ac65fbf5c4dd166, type: 2}
     - target: {fileID: 4156010391178104597, guid: fe6ef1068771f204996db2028f832a32, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -115,7 +119,7 @@ PrefabInstance:
     - target: {fileID: 6270694502043685450, guid: fe6ef1068771f204996db2028f832a32, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2a4b99d5f604ee14680fa863a2ce17df, type: 3}
+      objectReference: {fileID: 7778931736953551323, guid: b253ff0aabeacad48bbf99ac46daf21f, type: 3}
     - target: {fileID: 6879651241793358850, guid: fe6ef1068771f204996db2028f832a32, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -135,6 +139,22 @@ PrefabInstance:
     - target: {fileID: 7111357732073706125, guid: fe6ef1068771f204996db2028f832a32, type: 3}
       propertyPath: m_Name
       value: Dialogue Bubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277230268320233775, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.033279542
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277230268320233775, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.3333333
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277230268320233775, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.0073374705
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277230268320233775, guid: fe6ef1068771f204996db2028f832a32, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278736130
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
