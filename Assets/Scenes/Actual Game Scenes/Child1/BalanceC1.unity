@@ -171,6 +171,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 5350963793870931340, guid: 5e84e8c40cd865e4aa8180fcb06e98b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474072410938811383, guid: 5e84e8c40cd865e4aa8180fcb06e98b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474072410938811383, guid: 5e84e8c40cd865e4aa8180fcb06e98b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -969,6 +981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d897be43a9f8841ae491650e43b243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HasStarted: 0
   personRigidbody1: {fileID: 133384119}
   personRigidbody2: {fileID: 76398811}
   balanceSpeed: 1.5
