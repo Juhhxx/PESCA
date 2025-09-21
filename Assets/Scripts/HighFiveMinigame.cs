@@ -9,9 +9,7 @@ public class HighFiveMinigame : MiniGame
     [SerializeField] Transform playerArm1;
     [SerializeField] Transform playerArm2;
     [SerializeField] Animator animatorController;
-    [SerializeField] public UnityEvent OnPerfectHighFive;
-    [SerializeField] public UnityEvent OnAlrightHighFive;
-    [SerializeField] public UnityEvent OnBadHighFive;
+
     [Header("Values")]
     [SerializeField] float highFiveSpeed;
     [SerializeField] float rotateSpeed = 2f;
@@ -79,11 +77,11 @@ public class HighFiveMinigame : MiniGame
     {
         float raiseAmount = raiseSpeed * Input.GetAxis(playerAxis) * Time.deltaTime;
         givenArm.Translate(0, raiseAmount, 0);
-        if (givenArm.position.y > maxHeight)
+        if (givenArm.localPosition.y > maxHeight)
         {
             givenArm.position = new Vector3(givenArm.position.x, maxHeight, givenArm.position.z);
         }
-        else if (givenArm.position.y < minHeight)
+        else if (givenArm.localPosition.y < minHeight)
         {
             givenArm.position = new Vector3(givenArm.position.x, minHeight, givenArm.position.z);
         }
@@ -113,7 +111,7 @@ public class HighFiveMinigame : MiniGame
         {
             //METE AQUI O SOOOOMMMMMMM
             Instantiate(perfectHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
-            ScreenShakeManager.Instance.Shake(.5f, 5f);
+            ScreenShakeManager.Instance.Shake(.5f, .5f);
             Debug.Log("Perfect HighFive!");
         }
         else if (isHeightAccurate ^ isAngleAccurate)

@@ -48,7 +48,6 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
 
         LevelProfile level = _levelQueue.Dequeue();
 
-        _anim.SetTrigger("FadeOut");
 
         Debug.Log($"GOING TO LEVEL {level}");
         StartCoroutine(LoadLevelCR(waitTime, level));
@@ -56,11 +55,12 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
 
     private IEnumerator LoadLevelCR(float waitTime, LevelProfile level)
     {
+        yield return new WaitForSeconds(waitTime);
+        
+        _anim.SetTrigger("FadeOut");
         yield return new WaitUntil(() => !(_anim.GetCurrentAnimatorStateInfo(0).length >
         _anim.GetCurrentAnimatorStateInfo(0).normalizedTime));
-
-        yield return new WaitForSeconds(waitTime);
-
+        
         _ = LoadLevel(level);
     }
     private async Task LoadLevel(LevelProfile level)
@@ -83,6 +83,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         yield return new WaitForSeconds(waitTime);
 
         _currentMinigame?.StartMinigame();
+        Debug.Log($"Started {_currentMinigame.name}");
     }
 
     private IEnumerator RestartLevelCR()
@@ -105,6 +106,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         if (_currentMinigame != null)
         {
             _currentMinigame.OnMinigameEnd += GoToNextLevel;
+            Debug.Log($"Subscribed to OnMingameEnd in {_currentMinigame.name}");
         }
     }
     private void TurnOffEvents()

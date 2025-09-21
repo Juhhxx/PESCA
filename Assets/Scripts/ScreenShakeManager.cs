@@ -11,9 +11,6 @@ public class ScreenShakeManager : MonoBehaviourDDOL<ScreenShakeManager>
     void Awake()
     {
         base.SingletonCheck(this);
-
-        camTransform = Camera.main.transform;
-        initialPos = camTransform.localPosition;
     }
 
     public void Shake(float duration, float magnitude)
@@ -26,6 +23,8 @@ public class ScreenShakeManager : MonoBehaviourDDOL<ScreenShakeManager>
 
     private IEnumerator DoShake(float duration, float magnitude)
     {
+        camTransform = Camera.main.transform;
+        initialPos = camTransform.localPosition;
         float elapsed = 0f;
 
         while (elapsed < duration)
