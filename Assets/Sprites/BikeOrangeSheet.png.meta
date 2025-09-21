@@ -1,14 +1,7 @@
 fileFormatVersion: 2
 guid: 97a6e534199bbbe488147452a4a782e5
-<<<<<<< HEAD
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -5820743804495261831
-    second: BikeOrangeSheet_0
-  - first:
-      213: 510653312689650356
-    second: BikeOrangeSheet_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -41,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -70,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,20 +100,20 @@ TextureImporter:
       name: BikeOrangeSheet_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 28
         y: 0
-        width: 45
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97f01847950983fa0800000000000000
-      internalID: -5820743804495261831
+      spriteID: 8cb076464973ae24883a309bf6d1f9c0
+      internalID: 1019535707
       vertices: []
       indices: 
       edges: []
@@ -129,20 +122,20 @@ TextureImporter:
       name: BikeOrangeSheet_1
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 0
-        width: 45
-        height: 119
+        width: 43
+        height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ba3e3a7b74361700800000000000000
-      internalID: 510653312689650356
+      spriteID: 654373de498803b4ea192568693144eb
+      internalID: -1979061398
       vertices: []
       indices: 
       edges: []
@@ -151,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 186aba02479a8a743b5df46c9ed1b9ae
     internalID: 0
     vertices: []
     indices: 
@@ -160,11 +153,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BikeOrangeSheet_0: 1019535707
+      BikeOrangeSheet_1: -1979061398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
->>>>>>> 8360fe58604ce99e14ee73ff9ee5b8d20db8a4ea

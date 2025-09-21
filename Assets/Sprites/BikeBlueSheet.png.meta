@@ -1,14 +1,7 @@
 fileFormatVersion: 2
 guid: 06c2fc5c5506b9d4a96900f270a5d711
-<<<<<<< HEAD
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6458667029993150851
-    second: BikeBlueSheet_0
-  - first:
-      213: 6572874076185571642
-    second: BikeBlueSheet_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -41,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -70,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,20 +100,20 @@ TextureImporter:
       name: BikeBlueSheet_0
       rect:
         serializedVersion: 2
-        x: 27
+        x: 28
         y: 0
-        width: 45
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 389d44db17bc1a950800000000000000
-      internalID: 6458667029993150851
+      spriteID: a1428e54612e0264d9f6b7e757f80c4c
+      internalID: -147233248
       vertices: []
       indices: 
       edges: []
@@ -129,20 +122,20 @@ TextureImporter:
       name: BikeBlueSheet_1
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 0
-        width: 45
-        height: 119
+        width: 43
+        height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a313a60d52a873b50800000000000000
-      internalID: 6572874076185571642
+      spriteID: c27041df56258444889d9fda583ea1d7
+      internalID: 1814699820
       vertices: []
       indices: 
       edges: []
@@ -151,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,11 +153,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BikeBlueSheet_0: -147233248
+      BikeBlueSheet_1: 1814699820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
->>>>>>> 8360fe58604ce99e14ee73ff9ee5b8d20db8a4ea
