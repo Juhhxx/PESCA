@@ -948,11 +948,11 @@ MonoBehaviour:
   HasStarted: 0
   personRigidbody1: {fileID: 338406164}
   personRigidbody2: {fileID: 1178937735}
-  balanceSpeed: 1.5
+  balanceSpeed: 1
   minRandomTime: 0.5
   maxRandomTime: 1.5
-  negRandomAngVel: -40
-  posRandomAngVel: 40
+  negRandomAngVel: -20
+  posRandomAngVel: 20
   raceTime: 20
   canControl_P1: 1
   canControl_P2: 1

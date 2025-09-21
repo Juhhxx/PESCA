@@ -858,7 +858,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162123604}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -984,11 +984,11 @@ MonoBehaviour:
   HasStarted: 0
   personRigidbody1: {fileID: 133384119}
   personRigidbody2: {fileID: 76398811}
-  balanceSpeed: 1.5
+  balanceSpeed: 1
   minRandomTime: 0.5
   maxRandomTime: 1.5
-  negRandomAngVel: -40
-  posRandomAngVel: 40
+  negRandomAngVel: -20
+  posRandomAngVel: 20
   raceTime: 20
   canControl_P1: 1
   canControl_P2: 1
@@ -1068,7 +1068,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751667824}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1223,7 +1223,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832480936}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1812,7 +1812,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279369510}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

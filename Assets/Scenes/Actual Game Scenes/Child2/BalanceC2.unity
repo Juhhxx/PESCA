@@ -1881,11 +1881,11 @@ MonoBehaviour:
   HasStarted: 0
   personRigidbody1: {fileID: 879641718}
   personRigidbody2: {fileID: 841494786}
-  balanceSpeed: 1.5
+  balanceSpeed: 1
   minRandomTime: 0.5
   maxRandomTime: 1.5
-  negRandomAngVel: -40
-  posRandomAngVel: 40
+  negRandomAngVel: -20
+  posRandomAngVel: 20
   raceTime: 20
   canControl_P1: 1
   canControl_P2: 1
