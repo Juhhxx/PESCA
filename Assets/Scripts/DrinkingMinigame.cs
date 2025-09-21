@@ -9,9 +9,16 @@ public class DrinkingMinigame : MiniGame
     bool playerTwoWins = false;
     bool gameIsOngoing = false;
     [SerializeField] float drinkGameTime = 30;
+    void Start()
+    {
+        drinkingControllerScript1.gameObject.SetActive(false);
+        drinkingControllerScript2.gameObject.SetActive(false);
+    }
     public override void StartMinigame()
     {
         StartCoroutine(DrinkGameTime());
+        drinkingControllerScript1.gameObject.SetActive(true);
+        drinkingControllerScript2.gameObject.SetActive(true);
 
         HasStarted = true;
     }
@@ -21,7 +28,6 @@ public class DrinkingMinigame : MiniGame
     }
     IEnumerator DrinkGameTime()
     {
-        yield return new WaitForSecondsRealtime(2);
         Debug.Log("Game has Started!");
         gameIsOngoing = true;
         yield return new WaitForSecondsRealtime(drinkGameTime);
