@@ -102,6 +102,8 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         _currentMinigame = FindAnyObjectByType<MiniGame>();
         _currentDialogueRunner = FindAnyObjectByType<DialogueRunner>();
         DialogueShower.Instance.StopAllCoroutines();
+        DialogueShower.Instance.ClearDialogues();
+        ScreenShakeManager.Instance.StopAllCoroutines();
 
         if (_currentMinigame != null)
         {
