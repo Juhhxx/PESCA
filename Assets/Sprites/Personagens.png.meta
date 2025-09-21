@@ -119,10 +119,10 @@ TextureImporter:
       name: Personagens_0
       rect:
         serializedVersion: 2
-        x: 207
+        x: 208
         y: 0
-        width: 24
-        height: 69
+        width: 22
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Personagens_1
       rect:
         serializedVersion: 2
-        x: 249
+        x: 250
         y: 0
-        width: 24
-        height: 69
+        width: 22
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5cf3bfc2ac9020c458c76515dceb33a4
     internalID: 0
     vertices: []
     indices: 
