@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf57542657a8f32468369630f95dbb0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogueTag: C1_1
+  _dialogueTag: C2_4
 --- !u!4 &722689359
 Transform:
   m_ObjectHideFlags: 0
@@ -881,6 +881,10 @@ PrefabInstance:
     - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
       propertyPath: _dialogues.Array.data[7].<Sentences>k__BackingField.Array.data[1].<Side>k__BackingField
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[7].<Sentences>k__BackingField.Array.data[2].<Side>k__BackingField
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
       propertyPath: _dialogues.Array.data[7].<Sentences>k__BackingField.Array.data[3].<Side>k__BackingField
