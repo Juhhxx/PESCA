@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf57542657a8f32468369630f95dbb0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogueTag: C2_2
+  _dialogueTag: A1_2
 --- !u!4 &80157918
 Transform:
   m_ObjectHideFlags: 0
