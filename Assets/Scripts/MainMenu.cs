@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void OnStartClicked()
     {
-        SceneManager.LoadScene(1);
+        LevelManager.Instance.GoToNextLevel();
     }
     public void OnQuitClicked()
     {
