@@ -66,7 +66,7 @@ public class FireworkController : MonoBehaviour
             Transform spawnpointSelected = spawnpointsFW[UnityEngine.Random.Range(0, spawnpointsFW.Count)];
             Instantiate(fireworkPrefab, spawnpointSelected.position, Quaternion.identity);
         }
-        yield return new WaitForSecondsRealtime(3);
+        yield return new WaitForSecondsRealtime(8);
         fireworksOngoing = false;
     }
     public bool AreFireworksOngoing()
