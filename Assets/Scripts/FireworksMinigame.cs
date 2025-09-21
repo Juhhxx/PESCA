@@ -9,6 +9,7 @@ public class FireworksMinigame : MiniGame
     [SerializeField] FireworkController fireworkControllerScript1;
     [SerializeField] FireworkController fireworkControllerScript2;
     public UnityEvent OnFireworksStart;
+    public bool _didCount = false;
 
     public void Start()
     {
@@ -35,10 +36,15 @@ public class FireworksMinigame : MiniGame
     }
     void CompareCounts()
     {
+        if (_didCount) return;
+        
         int countPlayer1 = fireworkControllerScript1.CloserToCount();
         int countPlayer2 = fireworkControllerScript2.CloserToCount();
         if (countPlayer1 < countPlayer2) playerOneWins = true;
         else playerTwoWins = true;
+
+        _didCount = true;
+
         MinigameEnd();
     }
 }
