@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FallingBicyle_0: -8147460606237518575
+      FallingBicyle_1: -517009010166747146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
