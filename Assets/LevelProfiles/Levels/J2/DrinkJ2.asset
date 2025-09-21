@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c683803bfc70af941b6b1fc9f9d33777, type: 3}
-  m_Name: FireworksC1
+  m_Name: DrinkJ2
   m_EditorClassIdentifier: 
-  _levelScene: FireworksC1
+  _levelScene: DrinkingC1
   <StartMinigame>k__BackingField: 1
   <StartDelay>k__BackingField: 0
   <NextSceneDelay>k__BackingField: 0
