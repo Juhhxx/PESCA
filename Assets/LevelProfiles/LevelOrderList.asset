@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62872e3277311284b8f052a015e6b488, type: 3}
   m_Name: LevelOrderList
   m_EditorClassIdentifier: 
-  <LevelOrder>k__BackingField: []
+  <LevelOrder>k__BackingField:
+  - {fileID: 11400000, guid: 56cff09bae44cc941baf7684198a1eb0, type: 2}
+  - {fileID: 11400000, guid: 1f7f68d8eaab0ef438a69d8bdb1c7b20, type: 2}
+  - {fileID: 11400000, guid: c96d09bb64140044285da02186b50207, type: 2}
+  - {fileID: 11400000, guid: fe601b09ab09b2f4d979da908937f8ab, type: 2}

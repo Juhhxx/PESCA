@@ -26,7 +26,7 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
         _dialoguesList = new List<GameObject>();
         _dialogueLayoutGroup = _dialogueStack.GetComponent<VerticalLayoutGroup>();
-        
+
         tempPadding = new RectOffset(
             _dialogueLayoutGroup.padding.left,
             _dialogueLayoutGroup.padding.right,
@@ -95,6 +95,20 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
         foreach (TextMeshProUGUI tmp in tmps) tmp.text = sentence.Dialogue;
 
+        if (sentence.Dialogue == "")
+        {
+            Transform[] childs = GetComponentsInChildren<Transform>();
+
+            foreach (Transform c in childs) c.gameObject.SetActive(false);
+        }
+
         _dialoguesList.Add(textBubble);
+    }
+
+    public void ClearDialogues()
+    {
+        foreach (GameObject d in _dialoguesList) Destroy(d);
+
+        _dialoguesList.Clear();
     }
 }
