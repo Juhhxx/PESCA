@@ -14,5 +14,6 @@ public class LevelProfile : ScriptableObject
     [field: ShowIf("StartMinigame")]
     [field: SerializeField] public float StartDelay { get; private set; }
     [field: SerializeField] public float NextSceneDelay { get; private set; }
+    [field: SerializeField] public AudioClip BackgroundMusic { get; private set; }
 
 }
