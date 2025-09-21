@@ -34,9 +34,19 @@ public class HighFiveMinigame : MiniGame
     public UnityEvent OnHighFiveSmash;
     
     public UnityEvent OnHighlowSmash;
-    
+    public UnityEvent Whoosh;
+
+    private void Start()
+    {
+        playerArm1.gameObject.SetActive(false);
+        playerArm2.gameObject.SetActive(false);
+    }
+
     public override void StartMinigame()
     {
+        playerArm1.gameObject.SetActive(true);
+        playerArm2.gameObject.SetActive(true);
+
         timerScript = new Timer(timeLimit, Timer.TimerReset.Manual);
         timerScript.OnTimerDone += HighFive;
         StartHandSetUp(playerArm1, armHinge1, minAngle1, maxAngle1);
@@ -99,6 +109,7 @@ public class HighFiveMinigame : MiniGame
             animatorController.SetTrigger("highFiveTime");
             hasHighFived = true;
             CalculateAccuracyScore();
+            Whoosh.Invoke();
         }
     }
     void CalculateAccuracyScore()
