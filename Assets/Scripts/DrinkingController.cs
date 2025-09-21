@@ -19,12 +19,12 @@ public class DrinkingController : MonoBehaviour
     int drinksTaken = 0;
     bool noDrinkPresent = true;
     GameObject currentDrink;
-    Vector3 drinkSpawnPoint;
     [SerializeField] Vector2 drinkThrowForce;
     [SerializeField] float drinkRotationForce;
-    private float t;
-    private float speed = 1;
     bool canClick = true;
+    [SerializeField] Transform drinkSpawnpoint;
+    [SerializeField] float drinkSlideSpeed;
+    [SerializeField] Animator animatorButtonHelper;
 
     void Update()
     {
@@ -35,9 +35,10 @@ public class DrinkingController : MonoBehaviour
             {
                 canClick = true;
                 noDrinkPresent = false;
-                currentDrink = Instantiate(drinkObject, transform.position, Quaternion.identity);
+                currentDrink = Instantiate(drinkObject, drinkSpawnpoint.position, Quaternion.identity);
                 drinkRigidbody = currentDrink.GetComponent<Rigidbody2D>();
-                drinkSpawnPoint = currentDrink.transform.position;
+                animatorButtonHelper.SetBool("mustPressW", false);
+                StartCoroutine(SlideDrink(currentDrink.transform.position.x, transform.position.x));
             }
             else
             {
@@ -56,6 +57,7 @@ public class DrinkingController : MonoBehaviour
         {
             Debug.Log("Drink obtained!");
             DrinkItAll();
+            animatorButtonHelper.SetBool("mustPressW", true);
         }
     }
     void DrinkItAll()
@@ -80,7 +82,7 @@ public class DrinkingController : MonoBehaviour
         rb.gravityScale = 1;
         rb.AddTorque(drinkRotationForce);
         rb.AddForce(drinkThrowForce);
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.3f);
         Destroy(rb.gameObject);
         noDrinkPresent = true;
         hasClickedDrinkAll = 0;
@@ -89,5 +91,21 @@ public class DrinkingController : MonoBehaviour
     public int HowManyDrinks()
     {
         return drinksTaken;
+    }
+    private IEnumerator SlideDrink(float currentPosition, float pos)
+    {
+        float newPos = currentPosition;
+        float i = 0;
+
+        while (newPos != pos)
+        {
+            newPos = Mathf.Lerp(currentPosition, pos,i);
+
+            currentDrink.transform.localPosition = new Vector3(newPos, currentDrink.transform.position.y, 0f);
+
+            i += drinkSlideSpeed * Time.deltaTime;
+
+            yield return null;
+        }
     }
 }

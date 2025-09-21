@@ -14,6 +14,8 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     private MiniGame _currentMinigame;
     private DialogueRunner _currentDialogueRunner;
     private Animator _anim;
+    private AudioSource _audioSource;
+    private AudioClip _backgroundMusic;
 
     private void Awake()
     {
@@ -24,6 +26,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     {
         _levelQueue = new Queue<LevelProfile>(_levels.LevelOrder);
         _anim = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
 
         SetUpEvents();
         _anim.SetTrigger("FadeIn");
@@ -74,6 +77,12 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         if (level.StartMinigame) StartCoroutine(StartLevelCR(level.StartDelay));
         _currentDialogueRunner?.PlayDialogue();
         _anim.SetTrigger("FadeIn");
+
+        if (_backgroundMusic != level.BackgroundMusic)
+        {
+            _audioSource.clip = level.BackgroundMusic;
+            _audioSource.Play();
+        }
     }
 
     private IEnumerator StartLevelCR(float waitTime)
