@@ -15,6 +15,7 @@ public class FireworkController : MonoBehaviour
     [SerializeField] GameObject fireworkPrefab;
     private Vector3 counterPos;
     private float waveOffset = 0;
+    
     void Start()
     {
         counterPos = counterText.transform.position;
@@ -39,6 +40,7 @@ public class FireworkController : MonoBehaviour
             {
                 counterText.text = "0" + fireworkCount.ToString();
                 counterText.GetComponent<TMPPopWave>().PlayPop();
+
             }
             else
             {
