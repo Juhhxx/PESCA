@@ -43,7 +43,7 @@ public class BalanceMinigame : MiniGame
         {
             BalanceSelf(personRigidbody2, "HorizontalPlayer2");
         }
-        
+
         timerScript.CountTimer();
     }
     IEnumerator RandomInbalance(Rigidbody2D givenRigidbody, int player, float givenNegRandAngVel, float givenPosRandAngVel)
