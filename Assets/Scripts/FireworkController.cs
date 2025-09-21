@@ -13,6 +13,7 @@ public class FireworkController : MonoBehaviour
     [SerializeField] KeyCode countKeyCode;
     [SerializeField] List<Transform> spawnpointsFW;
     [SerializeField] GameObject fireworkPrefab;
+    [SerializeField] float timeAfterFireworkSpawns = 10;
     private Vector3 counterPos;
     private float waveOffset = 0;
     
@@ -66,7 +67,7 @@ public class FireworkController : MonoBehaviour
             Transform spawnpointSelected = spawnpointsFW[UnityEngine.Random.Range(0, spawnpointsFW.Count)];
             Instantiate(fireworkPrefab, spawnpointSelected.position, Quaternion.identity);
         }
-        yield return new WaitForSecondsRealtime(8);
+        yield return new WaitForSecondsRealtime(timeAfterFireworkSpawns);
         fireworksOngoing = false;
     }
     public bool AreFireworksOngoing()
