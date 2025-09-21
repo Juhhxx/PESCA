@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ public class FireworkController : MonoBehaviour
     int randomFireworksThrown;
     [SerializeField] TextMeshProUGUI counterText;
     [SerializeField] KeyCode countKeyCode;
+    [SerializeField] List<Transform> spawnpointsFW;
+    [SerializeField] GameObject fireworkPrefab;
     private Vector3 counterPos;
     private float waveOffset = 0;
     void Start()
@@ -57,8 +60,9 @@ public class FireworkController : MonoBehaviour
         fireworksOngoing = true;
         for (int i = 0; i < randomFireworksThrown; i++)
         {
-            yield return new WaitForSecondsRealtime(UnityEngine.Random.Range(.5f, 1.5f));
-            //Instanciate here firework prefab
+            yield return new WaitForSecondsRealtime(UnityEngine.Random.Range(2f, 3.5f));
+            Transform spawnpointSelected = spawnpointsFW[UnityEngine.Random.Range(0, spawnpointsFW.Count)];
+            Instantiate(fireworkPrefab, spawnpointSelected.position, Quaternion.identity);
         }
         yield return new WaitForSecondsRealtime(3);
         fireworksOngoing = false;

@@ -8,6 +8,7 @@ public class Firework : MonoBehaviour
 {
     private int timeToExplode;
     private Timer timer;
+    Timer timerDestroy;
     [SerializeField] private ParticleSystem [] fireworks;
     [SerializeField] private ParticleSystem shockWave;
     [SerializeField] private ParticleSystem trailSparks;
@@ -26,20 +27,20 @@ public class Firework : MonoBehaviour
 
     [MinMaxSlider(0f, 30f) ]
     [SerializeField] private Vector2 timerRange;
-
-
+    [SerializeField] float secondsToDestroy;
+    [SerializeField] Rigidbody2D fireworkRigidbody;
+    float fireworkRiseSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [System.Obsolete]
     void Start()
     {
         //Set up timer da juh
-        timer = new Timer(Random.Range(timerRange.x,timerRange.y), Timer.TimerReset.Manual);
+        timer = new Timer(Random.Range(timerRange.x, timerRange.y), Timer.TimerReset.Manual);
         timer.OnTimerDone += Burst;
-
         //Get Particle System Component
         fireworkPos = GetComponent<Transform>().position;
 
-        
+
         var main1 = fireworks[0].main;
         var main2 = fireworks[1].main;
         var sparksMain = trailSparks.main;
@@ -71,16 +72,22 @@ public class Firework : MonoBehaviour
             trail.colorGradient = chosenGradient;
         }
 
+        fireworkRiseSpeed = Random.Range(7f, 9f);
+        fireworkRigidbody.linearVelocityY += fireworkRiseSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
         timer.CountTimer();
+        timerDestroy?.CountTimer();
     }
 
     private void Burst()
     {
+        timerDestroy = new Timer(secondsToDestroy, Timer.TimerReset.Manual);
+        timerDestroy.OnTimerDone += () => Destroy(gameObject);
+        fireworkRigidbody.linearVelocityY = 0;
         trailObject.SetActive(false);
         missileHeadObject.SetActive(false);
         fireworks[0].Play();
