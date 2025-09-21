@@ -19,8 +19,8 @@ public class BalanceMinigame : MiniGame
     {
         timerScript = new Timer(raceTime, Timer.TimerReset.Manual);
         timerScript.OnTimerDone += EndRace;
-        StartCoroutine(RandomInbalance(personRigidbody1));
-        StartCoroutine(RandomInbalance(personRigidbody2));
+        StartCoroutine(RandomInbalance(personRigidbody1, 1));
+        StartCoroutine(RandomInbalance(personRigidbody2, 2));
     }
     public override void ResetMinigame()
     {
@@ -38,15 +38,23 @@ public class BalanceMinigame : MiniGame
             BalanceSelf(personRigidbody2, "HorizontalPlayer2");
         }
     }
-    IEnumerator RandomInbalance(Rigidbody2D givenRigidbody)
+    IEnumerator RandomInbalance(Rigidbody2D givenRigidbody, int player)
     {
         float randomAngularVelocity;
+        bool canControl = true;
+
         while (true)
         {
+            if (player == 1) canControl = canControl_P1;
+            else canControl = canControl_P2;
+
             randomTime = Random.Range(minRandomTime, maxRandomTime);
+
             yield return new WaitForSecondsRealtime(randomTime);
+
             randomAngularVelocity = Random.Range(negRandomAngVel, posRandomAngVel);
-            givenRigidbody.angularVelocity = randomAngularVelocity;
+
+            if (canControl) givenRigidbody.angularVelocity = randomAngularVelocity;
         }
     }
     void BalanceSelf(Rigidbody2D givenRigidbody, string playerAxis)

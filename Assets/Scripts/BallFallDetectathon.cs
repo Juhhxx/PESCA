@@ -12,6 +12,9 @@ public class BallFallDetectathon : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
+        GetComponent<Rigidbody2D>().angularVelocity = 0;
+        gameObject.transform.rotation = Quaternion.identity;
+
         if (player == 1)
         {
             balanceMinigGame.canControl_P1 = false;
@@ -21,9 +24,7 @@ public class BallFallDetectathon : MonoBehaviour
             balanceMinigGame.canControl_P2 = false;
         }
         Debug.Log("Uh oh!");
-        GetComponent<Rigidbody2D>().angularVelocity = 0;
-        gameObject.transform.rotation = Quaternion.identity;
-
+        
         anim.SetTrigger("fall");
 
         ScreenShakeManager.Instance.Shake(.1f, 0.2f);

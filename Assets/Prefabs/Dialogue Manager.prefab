@@ -45,61 +45,2773 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogues:
-  - <DialogueTag>k__BackingField: dialog_a
+  - <DialogueTag>k__BackingField: C1_1
     <Sentences>k__BackingField:
     - <Dialogue>k__BackingField: "Ser\xE1 desta J\xFAlio?!\r\n"
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 0
-      <TimeToNext>k__BackingField: 3.5
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
     - <Dialogue>k__BackingField: "Tenho a certeza, Pedro\u2026\r\n"
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 1
-      <TimeToNext>k__BackingField: 1.5
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
     - <Dialogue>k__BackingField: Eu sinto o nosso potencial.
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 0
-      <TimeToNext>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
     - <Dialogue>k__BackingField: O HIGH FIVE PERFEITO!!!
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 2
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
     - <Dialogue>k__BackingField: "V\xC1 V\xC1 PEDRO!"
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 1
-      <TimeToNext>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: "J\xDALIO PARA QUIETO!!\r\n"
+    - <Dialogue>k__BackingField: "J\xDALIO P\xC1RA QUIETO!!\r\n"
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 0
-      <TimeToNext>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
     - <Dialogue>k__BackingField: "OLHA PO MEU COTOVELO PEDRO, P\xD3 COTOVELOOOO!!\r\n"
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 2
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: ISTO ]E UM IDALOGO NO MEIO!
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C1_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: 'Olha eu! Pedroooo! '
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "P - AI! N\xE3o me distraias, sen\xE3o caio\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Tu consegueees! Eu acredito em ti!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Mas vou ganhar na mesma hahaha!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Nos teus sonhos!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Eish quase falhei um p\xE9!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xE1 est\xE1s distra\xEDdo hahahaha!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha quem fala! \xC9S UM MEDROSO!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C1_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Okay Pedro. Vamos fazer uma competi\xE7\xE3o de
+        bebida!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xFAlio, \xE9 s\xF3 sumo de ma\xE7\xE3\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Pedro, n\xE3o sejas um cortes!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: OKAY! Mas se eu ganhar levas a minha mala o resto
+        do caminho!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: E SE EU GANHAR TU LEVAS A MINHA O RESTO DA SEMANA!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 3, 2, 1, VAI
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xC3O \xC9 JUSTOOOO!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C1_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Bora! Bora! O fogo vai come\xE7ar!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xE1 alguma vez viste fogo de artif\xEDcio antes,
+        J\xFAlio?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Vi no Algarve com o meu pai uma vez e foi muito
+        bom!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Bem, eu ouvi dizer  que este \xE9 o MELHOR fogo
+        de artif\xEDcio."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "MAIS DE 100 EXPLOS\xD5ES!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: O QUE?? COMO??
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "SE N\xC3O ACREDITAS CONTA!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C2_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: Agora tem de ser PER-FEI-TOOO!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Tens de olhar para o meu cotovelo\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "HAN?! Tu \xE9 que nunca olhas!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "V\xE1 CONCENTRA!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 3, 2, VAI!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xE3o contes assim!!! Tem de ser depois do 1!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Conta tu ent\xE3o\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "CONCENTRA\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "3, 2 ,1 D\xC1-LHE!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C2_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "1, 2, 1, 2, 1, 2\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Desta vez est\xE1s concentrado!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "1, 2, 1, 2\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Pedro? Tas me a ouvir?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: UM, DOIS, UM, DOIS, UM, DOIS!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "EU \xC9 QUE VOU GANHAR AHHHH!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: UM, DOIS, UM, DOIS, UM, DOIS, UM, DOIS!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C2_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "J\xE1 sabes como \xE9!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Da outra vez fiquei com dor de barriga\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Acho que sou al\xE9rgico\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xE3o importa o conte\xFAdo, o que importa \xE9
+        a rapidez hehehe!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Chato! VOU \xC9 GANHAR-TE!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: TENTA!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: C2_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: Estou empolgado!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Tamb\xE9m eu!!! Acho que \xE9 o momento mais fixe
+        do ano!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Este ano ouvi dizer que v\xE3o ser mais de MIL
+        EXPLOS\xD5ES!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "HUH?! IMPOSS\xCDVEL!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "JURO-TE PELA MINHA M\xC3E!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Se eu contar menos de 50 outra vez, vou ficar desiludido\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - <Dialogue>k__BackingField: "AI! N\xE3o estou a conseguir v\xEA-los t\xE3o bem\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Fala menos e conta mais que eu assim ganho f\xE1cil!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J1_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: PEDRO! EI!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xDALIO! Ent\xE3o como est\xE1s?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Tava com saudades! D\xE1 a\xED um SOC\xC3O!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Hahaha okay okay!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J1_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: Pelo caminho habitual?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Claro! Espero que o c\xE3o do vizinho n\xE3o nos
+        chateie\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Vamos agora para a descida da casa dele\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Pronto pra uma corridinha para evitar a fera?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Mais que pronto!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 5
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "AI!!! ESTA BICICLETA EST\xC1 DEMASIADO R\xC1PIDA!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Pronto pra uma corridinha para evitar a fera?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J1_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: Baza ver quem bebe mais!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Hmmmm, n\xE3o costumo beber tanto\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Pela piadaaa!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Oh! mas pagas tu!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "S\xF3 desta vez, ent\xE3o."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Pffff! J\xE1 n\xE3o aguento mais\u2026.."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J1_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: Um dia temos de genuinamente comprar algum dos fogos
+        para experimentar!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha que n\xE3o sei\u2026 J\xE1 vi muitos v\xEDdeos
+        disso a correr mal\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "E olha que dinheiro tamb\xE9m n\xE3o t\xE1 no melhor..."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "A mesada n\xE3o aguenta a cervejada que n\xE3o
+        pagas!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha, olha! J\xE1 t\xE1 a come\xE7ar!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Se eu ganhar ficas tu de pagar as cervejas da pr\xF3xima!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Uma competi\xE7\xE3o estou sempre pronto!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ai tenho de comprar \xF3culos que isto j\xE1 n\xE3o
+        est\xE1 no melhor."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Tu tamb\xE9m devias Pedro, que tu ao longe tamb\xE9m
+        j\xE1 n\xE3o v\xEAs um p\xE1ssaro\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "SIM SIM, j\xE1 sei\u2026 "
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J2_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "J\xDALIO! AQUI!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "PEDRO! N\xE3o te estava a ver no meio desta gente."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Isto hoje t\xE1 dif\xEDcil hahaha!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xE3o pensei que viesse tanta gente ao dia de
+        defesa nacional."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J2_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Estamos ao p\xE9 da casa do vizinho!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ent\xE3o prepara-te! Que j\xE1 n\xE3o me APANHAS!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Tas a duvidar?! ZOOMMMM!!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "PEDRO N\xC3O ESTOU A CONSEGUIR ABRANDAR!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: TEM CUIDADO!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: AI!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J2_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Ent\xE3o J\xFAlio? Como est\xE1 a tua perna?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "O m\xE9dico disse que daqui a uns meses j\xE1 posso
+        andar outra vez."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Mas que talvez n\xE3o possa fazer desporto para
+        o resto da vida\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "A S\xC9RIO? Juro que vamos arranjar algo que possamos
+        fazer os dois."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha eu agora arranjei um part\u2013time nas docas!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Posso te pagar as cervejas que quiseres!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha olha! isso cheira-me a competi\xE7\xE3o de
+        quem bebe mais!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Desta vez vou ficar b\xEAbado que d\xF3i!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: J2_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Achas que pare\xE7o um nerd com os \xF3culos?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Nah! Acho que tas normal.
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Desde o acidente que o meu pai ficou todo stressado
+        com a minha vis\xE3o"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Nem consegui escolher os \xF3culos que gostava
+        mais\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Os meus pais tamb\xE9m nunca me largam... "
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Especialmente agora que tenho trabalhado nas docas.
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Mas sinceramente n\xE3o quero muito saber do que
+        eles dizem\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Hmmm\u2026. -Oh! J\xE1 s\xE3o 11 da noite, pronto
+        para a contagem???"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: CLARO!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Este ano parece que t\xEAm menos\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Acho que o problema \xE9 n\xE3o te preocupares
+        com os teus olhos\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "AI! J\xC1 EST\xC1S IGUAL AOS MEUS PAIS!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "COMO ASSIM?! ESTOU S\xD3 PREOCUPADO CONTIGO!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "TAS ME S\xD3 A CHATEAR A CABE\xC7A!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A1_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Pedro! J\xE1 n\xE3o te vejo h\xE1 algum tempo,
+        temos de combinar sair!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Ah-...
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Esqueci-me\u2026 Desculpa\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A1_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Realmente Yoga \xE9 algo que ainda consigo fazer,
+        mesmo com algumas dificuldades."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Obrigado por teres encontrado algo que conseguimos
+        fazer os dois!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Eu tinha prometido, nunca iria falhar uma promessa.
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ai! O meu joelho ta mm feito num oito\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Manter esta pose \xE9 t\xE3o dif\xEDcil\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A1_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "J\xE1 n\xE3o bebemos h\xE1 algum tempo. "
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Acho que era de apanhar uma grande bebedeira!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "E que achas de fazermos uma competi\xE7\xE3o como
+        nos velhos tempos hehehe?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Eu n\xE3o vou conseguir ser r\xE1pido\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ainda n\xE3o estou totalmente habituado a usar
+        s\xF3 a m\xE3o esquerda\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xE3o sejas um MEDROSO! Tamb\xE9m tenho dificuldades
+        e esfor\xE7o-me na mesma!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xDALIO?! Que parvo\xEDce \xE9 essa? N\xC3O ENTENDES
+        QUE ISTO ME LIXOU A VIDA?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: FUI DESPEDIDO DO MEU TRABALHO!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "E AGORA ARRANJAR OUTRO VAI SER IMPOSS\xCDVEL!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xC1 NEM ME APETECE BEBER!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "VAI EMBORA ENT\xC3O!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A1_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "J\xE1 passa das 11 da noite da noite\u2026 Ser\xE1
+        que aconteceu algo?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Se calhar houve alguma falha a lan\xE7ar."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Este ano est\xE1 s\xF3 a correr mal\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Que foi?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Nada.
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "N\xE3o me digas que ainda est\xE1s chateado da
+        outra vez?!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Tu nem um pedido de desculpas conseguiste dar!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "HAN?! QUE EU SAIBA N\xC3O FIZ NADA DE MAL!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "EU TAMB\xC9M NUNCA MAIS VOU PODER FAZER DESPORTO."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "MAS FA\xC7O O ESFOR\xC7O M\xCDNIMO."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: TU NEM A COMPRIMENTARES-ME TENTASTE!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "EST\xC1S A GOZAR COM A MINHA CARA!!! J\xC1 N\xC3O
+        TE AGUENTO MAIS!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Vou andando\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A2_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Ent\xE3o como est\xE1s?"
+      <Dialogue2>k__BackingField: Tem corrido tudo bem?
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Ta tudo bem!
+      <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Bom saber, que tem corrido tudo bem!
+      <Dialogue2>k__BackingField: "Ainda tenho algumas dificuldades com esta \u201Cnova
+        m\xE3o\u201D."
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha queres vir ao yoga comigo? \xC9 o \xFAnico
+        desporto que consigo fazer\u2026"
+      <Dialogue2>k__BackingField: Mas olha tenho uma aula de yoga que esqueci me
+        de desmarcar, queres vir?
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Posso ir sem problema!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
       <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A2_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Depois de tantos anos ainda tenho dificuldades
+        nisto\u2026"
+      <Dialogue2>k__BackingField: "J\xE1 vieste a algo do g\xE9nero alguma vez?"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 5
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\xC9 a minha primeira vez, parece-me ser uma bocado
+        seca."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 5
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Eu at\xE9 gosto\u2026"
+      <Dialogue2>k__BackingField: "Fiz por tanto tempo, sinto que j\xE1 faz parte
+        da minha rotina\u2026"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A2_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Pronto para ficar b\xEAbado? "
+      <Dialogue2>k__BackingField: Costumas beber?
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Claro!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: E sou conhecido por aguentar BEM!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 3
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Tas me a desafiar?
+      <Dialogue2>k__BackingField: "Isso \xE9 um desafio?"
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 1
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: A2_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Ah-... N\xE3o estava \xE0 espera de ter ver aqui\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026Sim\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Como tens estado?
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Normal\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Olha\u2026 q-queria te pedir desculpas, apercebi-me
+        que fui insens\xEDvel\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: ...
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Fico feliz de ouvir isso, obrigado!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Eu tamb\xE9m realmente n\xE3o me esforcei o suficiente
+        para falar contigo "
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Queres ver em conjunto? Como quando \xE9ramos crian\xE7as?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Quando dizias que eram 1000? Hahahaha!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "O melhor \xE9 confirmar!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V1_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Esta velhice cansa-me\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Quando \xE9ramos crian\xE7as havia energia para
+        tudo."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "T\xEDnhamos sempre a mania dos \u201Cmais cinco\u201D
+        hahaha!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Oh! E darmos um como nos bons tempos, ser\xE1 que
+        conseguimos? Hahahah!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ser\xE1 desta J\xFAlio?!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Eu ainda sinto o nosso potencial!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: O HIGH FIVE PERFEITO!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 2
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V1_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "A bengala t\xE1 me a matar as m\xE3os\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Olha a minha so range hahahaha!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ia dizer que \xE9s sortudo mas acho que n\xE3o
+        \xE9 bem o caso."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Neste caso aceito como sorte sim hahaha!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V1_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Imaginamos que \xE9 sumo de ma\xE7\xE3?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Queres \xE9, me mandar ja pa cova! A tua sorte
+        \xE9 que para mim whiskey \xE9 uma d\xE1diva."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ent\xE3o est\xE1s a assumir que me ganharias?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Acredito que sim!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ent\xE3o vamos por isso \xE0 prova muehehehe!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V1_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "J\xE1 estivemos neste miradouro tantas vezes!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Independente das dificuldades que tivemos na vida...
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Estar ao teu lado sempre foi uma felicidade!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "E vamos continuar a aproveitar at\xE9 ao fim.  "
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Vamos contar cada um destes fogos como se fossemos
+        crian\xE7as mais uma vez."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "E continuar nos anos que est\xE3o por vir!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V2_1
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "V\xE1, v\xE1 Pedro!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xFAlio fica quieto!!!"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: Tens de olhar para o meu cotovelo!!!
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V2_2
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "Pedro\u2026 J\xE1 n\xE3o estou a aguentar as pernas\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 0
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "Ahn? J\xFAlio?"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "J\xDALIO!..."
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 4
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 2
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V2_3
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 8
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+  - <DialogueTag>k__BackingField: V2_4
+    <Sentences>k__BackingField:
+    - <Dialogue>k__BackingField: "\u2026"
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 8
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
+      OnDialoguePlayed:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Dialogue>k__BackingField: 
+      <Dialogue2>k__BackingField: 
+      <Audio>k__BackingField: {fileID: 0}
+      <Side>k__BackingField: 1
+      <DifferentDialog>k__BackingField: 0
+      <TimeToNext>k__BackingField: 3
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []

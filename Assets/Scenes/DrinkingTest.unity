@@ -310,8 +310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bddd0dbc50bf1d0429aae4c6306b9c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drinkingControllerScript1: {fileID: 0}
-  drinkingControllerScript2: {fileID: 0}
+  drinkingControllerScript1: {fileID: 1094610416}
+  drinkingControllerScript2: {fileID: 268178315}
 --- !u!4 &413923577
 Transform:
   m_ObjectHideFlags: 0
