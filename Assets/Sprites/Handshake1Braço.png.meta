@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 97a6e534199bbbe488147452a4a782e5
+guid: 50812edda347a9c419c7a7160b32f732
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5820743804495261831
-    second: BikeOrangeSheet_0
+      213: -1357722741797614045
+    second: "Handshake1Bra\xE7o_0"
   - first:
-      213: 510653312689650356
-    second: BikeOrangeSheet_1
+      213: 8453847481399015140
+    second: "Handshake1Bra\xE7o_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BikeOrangeSheet_0
+      name: "Handshake1Bra\xE7o_0"
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 45
-        height: 120
+        x: 140
+        y: 94
+        width: 151
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97f01847950983fa0800000000000000
-      internalID: -5820743804495261831
+      spriteID: 32e0faf1c56682de0800000000000000
+      internalID: -1357722741797614045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BikeOrangeSheet_1
+      name: "Handshake1Bra\xE7o_1"
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 45
-        height: 119
+        x: 315
+        y: 79
+        width: 165
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ba3e3a7b74361700800000000000000
-      internalID: 510653312689650356
+      spriteID: 4e67e127e79125570800000000000000
+      internalID: 8453847481399015140
       vertices: []
       indices: 
       edges: []
