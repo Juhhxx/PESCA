@@ -157,7 +157,7 @@ MonoBehaviour:
       OnDialoguePlayed:
         m_PersistentCalls:
           m_Calls: []
-    - <Dialogue>k__BackingField: "P - AI! N\xE3o me distraias, sen\xE3o caio\u2026"
+    - <Dialogue>k__BackingField: "AI! N\xE3o me distraias, sen\xE3o caio\u2026"
       <Dialogue2>k__BackingField: 
       <Audio>k__BackingField: {fileID: 0}
       <Side>k__BackingField: 1
