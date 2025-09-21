@@ -104,8 +104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hey are you the guy who cursed woody cheeseburger my sister?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e8b1174c35024c429f3363183a5f15d, type: 2}
-  m_sharedMaterial: {fileID: -2009185777784633921, guid: 5e8b1174c35024c429f3363183a5f15d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 60a17c73856d1304ab646cd5c754158c, type: 2}
+  m_sharedMaterial: {fileID: 7399945789318902305, guid: 60a17c73856d1304ab646cd5c754158c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
