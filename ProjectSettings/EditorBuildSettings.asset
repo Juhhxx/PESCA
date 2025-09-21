@@ -11,6 +11,102 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 72192af972edfe1409290abd29616f3f
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child1/BalanceC1.unity
+    guid: 21248b60861465946b69d9dea174c83e
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child1/DrinkingC1.unity
+    guid: 7a49f2d02deeea248b888403bf6a073a
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child1/FireworksC1.unity
+    guid: 6a5faebd7dd37bc47b031a8eadd1b327
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child1/HighFiveC1.unity
+    guid: 8facf5e591785614f9dd8bd2c3aacfa4
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child2/BalanceC2.unity
+    guid: 110b06bcf1b36c043b88c8cb3674c202
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child2/DrinkingC2.unity
+    guid: 0a38918c7f8421e4d88f1d212b805eaf
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child2/FireworksC2.unity
+    guid: 4fb7314a14442f24dbe93523b1858162
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Child2/HighFiveC2.unity
+    guid: 0098b49c9d78afc4d9c364c3c6513eba
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem1/BalanceJ1.unity
+    guid: e66f3c9993de2864dbda6fa68791afab
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem1/DrinkingJ1.unity
+    guid: 18c7b37131265484ca51f48efeb57e41
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem1/FireworksJ1.unity
+    guid: 0b7b84158ebc47848935b959bdee2eba
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem1/HighFiveTestJ1.unity
+    guid: 95ef472209a15094ca2a1e21c07d9efd
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem2/BalanceJ2.unity
+    guid: 75441f56766d4a549bab44e9b67e1b0f
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem2/DrinkingJ2.unity
+    guid: 2d52b8cace600c9409a1d0461078417f
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem2/FireworksJ2.unity
+    guid: 0cd4cf735c96e104da5a84d8a0ddb7b5
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Jovem2/HighFiveJ2.unity
+    guid: 50aba7df3454b9e4386185f9f8fc6381
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto1/BalanceA1.unity
+    guid: f8b815dbc7c796942a050fe1211e644a
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto1/DrinkingA1.unity
+    guid: bbeb82cc521930e40ac0d4de8f1f72fa
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto1/FireworksA1.unity
+    guid: 2920f157681fe25499f682ce32eef8c7
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto1/HighFiveA1.unity
+    guid: 3e7bc40a5c3d78948b1e6c5672b6ad6b
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto2/BalanceA2.unity
+    guid: d84da564a7f9dbc49bc41316cac53e01
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto2/DrinkingA2.unity
+    guid: 3f9889e35e2cab4419a1b3f68d748f37
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto2/FireworksA2.unity
+    guid: c1edcf94e8b80174c90f7529c3aa1673
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Adulto2/HighFiveA2.unity
+    guid: 13449a6282f00474386bab4911d0e5c8
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho1/BalanceV1.unity
+    guid: cc8efab4351a76c4a95e11efc3b5bf3f
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho1/DrinkingV1.unity
+    guid: 70af6f64fa5dc344ba1a1520501e49ef
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho1/FireworksV1.unity
+    guid: 02ff14be33b48744b897c4e7613540b5
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho1/HighFiveV1.unity
+    guid: 05c3ab0d0bd7fc7419bbdc9ec2b0cf56
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho2/BalanceV2.unity
+    guid: fea5940de6be2a44faab390c87dc4271
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho2/DrinkingV2.unity
+    guid: b934170a90677724a99ed25a3acd370e
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho2/FireworksV2.unity
+    guid: fcb4001a924ee184591785cab9152e2d
+  - enabled: 1
+    path: Assets/Scenes/Actual Game Scenes/Velho2/HighFiveV2.unity
+    guid: afa5e1ad6e7a1e34eb20d70c494c045b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

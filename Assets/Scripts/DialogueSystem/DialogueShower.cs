@@ -20,10 +20,12 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
     private VerticalLayoutGroup _dialogueLayoutGroup;
     private RectOffset tempPadding;
 
-    private void Start()
+    private void Awake()
     {
         base.SingletonCheck(this);
-
+    }
+    private void Start()
+    {
         _dialoguesList = new List<GameObject>();
         _dialogueLayoutGroup = _dialogueStack.GetComponent<VerticalLayoutGroup>();
 

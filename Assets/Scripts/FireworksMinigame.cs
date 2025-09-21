@@ -9,7 +9,7 @@ public class FireworksMinigame : MiniGame
     [SerializeField] FireworkController fireworkControllerScript2;
     public override void StartMinigame()
     {
-
+        HasStarted = true;
     }
 
     public override void ResetMinigame()
@@ -18,6 +18,7 @@ public class FireworksMinigame : MiniGame
     }
     void Update()
     {
+        if (!HasStarted) return;
         if (!fireworkControllerScript1.AreFireworksOngoing() && !fireworkControllerScript2.AreFireworksOngoing()) CompareCounts();
     }
     void CompareCounts()

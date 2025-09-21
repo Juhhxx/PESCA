@@ -31,12 +31,15 @@ public class HighFiveMinigame : MiniGame
     bool isAngleAccurate = false;
     Timer timerScript;
     bool hasHighFived = false;
+    
     public override void StartMinigame()
     {
         timerScript = new Timer(timeLimit, Timer.TimerReset.Manual);
         timerScript.OnTimerDone += HighFive;
         StartHandSetUp(playerArm1, armHinge1, minAngle1, maxAngle1);
         StartHandSetUp(playerArm2, armHinge2, minAngle2, maxAngle2);
+
+        HasStarted = true;
     }
     public override void ResetMinigame()
     {
@@ -49,6 +52,8 @@ public class HighFiveMinigame : MiniGame
     }
     void Update()
     {
+        if (!HasStarted) return;
+
         if (!hasHighFived)
         {
             RotateHand(armHinge1, "HorizontalPlayer1", minAngle1, maxAngle1);

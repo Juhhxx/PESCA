@@ -11,6 +11,8 @@ public class DrinkingMinigame : MiniGame
     public override void StartMinigame()
     {
         StartCoroutine(DrinkGameTime());
+
+        HasStarted = true;
     }
     public override void ResetMinigame()
     {

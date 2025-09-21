@@ -26,6 +26,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         _anim = GetComponent<Animator>();
 
         SetUpEvents();
+        _anim.SetTrigger("FadeIn");
 
         SceneManager.sceneLoaded += (Scene s, LoadSceneMode m) => SetUpEvents();
         SceneManager.sceneUnloaded += (Scene s) => TurnOffEvents();
@@ -99,6 +100,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     {
         _currentMinigame = FindAnyObjectByType<MiniGame>();
         _currentDialogueRunner = FindAnyObjectByType<DialogueRunner>();
+        DialogueShower.Instance.StopAllCoroutines();
 
         if (_currentMinigame != null)
         {

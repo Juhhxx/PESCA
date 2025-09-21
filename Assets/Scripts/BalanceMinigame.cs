@@ -21,6 +21,8 @@ public class BalanceMinigame : MiniGame
         timerScript.OnTimerDone += EndRace;
         StartCoroutine(RandomInbalance(personRigidbody1, 1));
         StartCoroutine(RandomInbalance(personRigidbody2, 2));
+
+        HasStarted = true;
     }
     public override void ResetMinigame()
     {
@@ -28,6 +30,8 @@ public class BalanceMinigame : MiniGame
     }
     void Update()
     {
+        if (!HasStarted) return;
+        
         if (canControl_P1)
         {
             BalanceSelf(personRigidbody1, "HorizontalPlayer1");
