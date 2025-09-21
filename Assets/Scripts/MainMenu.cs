@@ -9,10 +9,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void OnSettingsClicked()
-    {
-        SceneManager.LoadScene("Settings");
-    }
     public void OnQuitClicked()
     {
         Application.Quit();

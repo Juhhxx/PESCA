@@ -29,6 +29,10 @@ public class HighFiveMinigame : MiniGame
     bool isAngleAccurate = false;
     Timer timerScript;
     bool hasHighFived = false;
+
+    public UnityEvent OnHighFiveSmash;
+    
+    public UnityEvent OnHighlowSmash;
     
     public override void StartMinigame()
     {
@@ -113,6 +117,7 @@ public class HighFiveMinigame : MiniGame
             Instantiate(perfectHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
             ScreenShakeManager.Instance.Shake(.5f, .5f);
             Debug.Log("Perfect HighFive!");
+            OnHighFiveSmash.Invoke();
         }
         else if (isHeightAccurate ^ isAngleAccurate)
         {
@@ -120,6 +125,7 @@ public class HighFiveMinigame : MiniGame
             Instantiate(okayHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
             ScreenShakeManager.Instance.Shake(0.2f, 0.5f);
             Debug.Log("That was alright!");
+            OnHighlowSmash.Invoke();
         }
         else
         {
