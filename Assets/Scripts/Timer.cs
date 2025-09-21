@@ -17,7 +17,7 @@ public class Timer
     {
         if (_time > 0)
         {
-            _time -= Time.fixedDeltaTime;
+            _time -= Time.deltaTime;
         }
         else if (_time <= 0)
         {

@@ -72,7 +72,7 @@ public class Firework : MonoBehaviour
             trail.colorGradient = chosenGradient;
         }
 
-        fireworkRiseSpeed = Random.Range(7.5f, 8.6f);
+        fireworkRiseSpeed = Random.Range(9f, 15f);
         fireworkRigidbody.linearVelocityY += fireworkRiseSpeed;
     }
 
