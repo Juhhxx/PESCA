@@ -630,6 +630,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[0].<Sentences>k__BackingField.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[0].<Sentences>k__BackingField.Array.data[8].<Side>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[0].<Sentences>k__BackingField.Array.data[7].<Dialogue>k__BackingField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[0].<Sentences>k__BackingField.Array.data[8].<Dialogue>k__BackingField
+      value: "ISTO \xC9 UM DIALOGO NO MEIO!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373827547984271827, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
+      propertyPath: _dialogues.Array.data[0].<Sentences>k__BackingField.Array.data[8].<TimeToNext>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8385174570138827597, guid: 838e8000d37cbcb4ea7e0fb124117aaf, type: 3}
       propertyPath: m_Name
       value: Dialogue Manager
