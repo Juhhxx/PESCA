@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     [SerializeField][Expandable] private LevelList _levels;
     private LevelProfile _currentLevel;
     private Queue<LevelProfile> _levelQueue;
+    private MiniGame _currentMinigame;
+    private Animator _anim;
 
     private void Awake()
     {
@@ -20,6 +22,7 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     private void Start()
     {
         _levelQueue = new Queue<LevelProfile>(_levels.LevelOrder);
+        _anim = GetComponent<Animator>();
 
         SetUpEvents();
 
@@ -37,8 +40,25 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
             return;
         }
 
+        float waitTime = 0;
+
+        if (_currentLevel != null) waitTime = _currentLevel.NextSceneDelay;
+
         LevelProfile level = _levelQueue.Dequeue();
+
+        _anim.SetTrigger("FadeOut");
+
         Debug.Log($"GOING TO LEVEL {level}");
+        StartCoroutine(LoadLevelCR(waitTime, level));
+    }
+
+    private IEnumerator LoadLevelCR(float waitTime, LevelProfile level)
+    {
+        yield return new WaitUntil(() => !(_anim.GetCurrentAnimatorStateInfo(0).length >
+        _anim.GetCurrentAnimatorStateInfo(0).normalizedTime));
+
+        yield return new WaitForSeconds(waitTime);
+
         _ = LoadLevel(level);
     }
     private async Task LoadLevel(LevelProfile level)
@@ -50,7 +70,18 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         await SceneManager.LoadSceneAsync(level.LevelScene);
 
         Debug.Log($"LOADED LEVEL {level}");
+
+        if (level.StartMinigame) StartCoroutine(StartLevelCR(level.StartDelay));
+        _anim.SetTrigger("FadeIn");
     }
+
+    private IEnumerator StartLevelCR(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+
+        _currentMinigame?.StartMinigame();
+    }
+
     private IEnumerator RestartLevelCR()
     {
         yield return new WaitForSeconds(1.5f);
@@ -61,10 +92,21 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
     {
         await SceneManager.LoadSceneAsync(_currentLevel.LevelScene);
     }
+    
     private void SetUpEvents()
     {
+        _currentMinigame = FindAnyObjectByType<MiniGame>();
+
+        if (_currentMinigame != null)
+        {
+            _currentMinigame.OnMinigameEnd += GoToNextLevel;
+        }
     }
     private void TurnOffEvents()
     {
+        if (_currentMinigame != null)
+        {
+            _currentMinigame.OnMinigameEnd -= GoToNextLevel;
+        }
     }
 }
