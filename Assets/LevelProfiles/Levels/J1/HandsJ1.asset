@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c683803bfc70af941b6b1fc9f9d33777, type: 3}
+  m_Name: HandsJ1
+  m_EditorClassIdentifier: 
+  _levelScene: HighFiveTestJ1
+  <StartMinigame>k__BackingField: 1
+  <StartDelay>k__BackingField: 0
+  <NextSceneDelay>k__BackingField: 0
+  <BackgroundMusic>k__BackingField: {fileID: 0}
