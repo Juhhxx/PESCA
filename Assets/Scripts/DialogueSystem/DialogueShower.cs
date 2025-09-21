@@ -97,7 +97,7 @@ public class DialogueShower : MonoBehaviourDDOL<DialogueShower>
 
         if (sentence.Dialogue == "")
         {
-            Transform[] childs = GetComponentsInChildren<Transform>();
+            Transform[] childs = textBubble.GetComponentsInChildren<Transform>();
 
             foreach (Transform c in childs) c.gameObject.SetActive(false);
         }
