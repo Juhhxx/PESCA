@@ -8,6 +8,7 @@ public class DrinkingMinigame : MiniGame
     bool playerOneWins = false;
     bool playerTwoWins = false;
     bool gameIsOngoing = false;
+    [SerializeField] float drinkGameTime = 30;
     public override void StartMinigame()
     {
         StartCoroutine(DrinkGameTime());
@@ -23,7 +24,7 @@ public class DrinkingMinigame : MiniGame
         yield return new WaitForSecondsRealtime(2);
         Debug.Log("Game has Started!");
         gameIsOngoing = true;
-        yield return new WaitForSecondsRealtime(20);
+        yield return new WaitForSecondsRealtime(drinkGameTime);
         gameIsOngoing = false;
         CalculateWinner();
     }

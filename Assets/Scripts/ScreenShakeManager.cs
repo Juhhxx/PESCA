@@ -24,7 +24,8 @@ public class ScreenShakeManager : MonoBehaviourDDOL<ScreenShakeManager>
     private IEnumerator DoShake(float duration, float magnitude)
     {
         camTransform = Camera.main.transform;
-        initialPos = camTransform.localPosition;
+        initialPos = Vector3.zero;
+        initialPos.z = -10f;
         float elapsed = 0f;
 
         while (elapsed < duration)
