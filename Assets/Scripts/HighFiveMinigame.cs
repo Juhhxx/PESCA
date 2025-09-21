@@ -115,7 +115,7 @@ public class HighFiveMinigame : MiniGame
         {
             //METE AQUI O SOOOOMMMMMMM
             Instantiate(perfectHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
-            ScreenShakeManager.Instance.Shake(.5f, .5f);
+            ScreenShakeManager.Instance.Shake(.2f, .2f);
             Debug.Log("Perfect HighFive!");
             OnHighFiveSmash.Invoke();
         }
@@ -123,14 +123,14 @@ public class HighFiveMinigame : MiniGame
         {
             //AQUI TBBBBB DANIEEEL
             Instantiate(okayHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
-            ScreenShakeManager.Instance.Shake(0.2f, 0.5f);
+            ScreenShakeManager.Instance.Shake(0.05f, 0.2f);
             Debug.Log("That was alright!");
             OnHighlowSmash.Invoke();
         }
         else
         {
             Debug.Log("Yeah, not great...");
-            ScreenShakeManager.Instance.Shake(0.1f, 0.2f);
+            ScreenShakeManager.Instance.Shake(0.01f, 0.05f);
         }
         MinigameEnd();
     }

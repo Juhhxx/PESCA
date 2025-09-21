@@ -58,8 +58,6 @@ public class LevelManager : MonoBehaviourDDOL<LevelManager>
         yield return new WaitForSeconds(waitTime);
         
         _anim.SetTrigger("FadeOut");
-        yield return new WaitUntil(() => !(_anim.GetCurrentAnimatorStateInfo(0).length >
-        _anim.GetCurrentAnimatorStateInfo(0).normalizedTime));
         
         _ = LoadLevel(level);
     }
