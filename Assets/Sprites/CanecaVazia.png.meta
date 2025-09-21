@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CanecaVazia_0: 7051794223732373794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

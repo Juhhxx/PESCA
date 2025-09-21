@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fireworks1_0: 3388150554404701190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

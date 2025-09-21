@@ -25,6 +25,8 @@ public class HighFiveMinigame : MiniGame
     [SerializeField] float timeLimit = 7;
     [SerializeField] float heightAccuracyThreshold = 1f;
     [SerializeField] float angleAccuracyThreshold = 30f;
+    [SerializeField] GameObject perfectHighFive;
+    [SerializeField] GameObject okayHighFive;
     bool isHeightAccurate = false;
     bool isAngleAccurate = false;
     Timer timerScript;
@@ -97,11 +99,30 @@ public class HighFiveMinigame : MiniGame
         if (heightDiff < heightAccuracyThreshold) isHeightAccurate = true;
 
         float angleDiff = Mathf.Abs(Mathf.DeltaAngle(armHinge1.rotation.eulerAngles.z, armHinge2.rotation.eulerAngles.z));
-        if (angleDiff < angleAccuracyThreshold) isAngleAccurate = true;
+        if (angleDiff < angleAccuracyThreshold)
+        {
+            isAngleAccurate = true;
+        }
 
-        if (isHeightAccurate && isAngleAccurate) Debug.Log("Perfect HighFive!");
-        else if (isHeightAccurate ^ isAngleAccurate) Debug.Log("That was alright!");
-        else Debug.Log("Yeah, not great...");
+        if (isHeightAccurate && isAngleAccurate)
+        {
+            //METE AQUI O SOOOOMMMMMMM
+            Instantiate(perfectHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
+            ScreenShakeManager.Instance.Shake(.5f, 5f);
+            Debug.Log("Perfect HighFive!");
+        }
+        else if (isHeightAccurate ^ isAngleAccurate)
+        {
+            //AQUI TBBBBB DANIEEEL
+            Instantiate(okayHighFive, (playerArm1.position + playerArm2.position) / 2, Quaternion.identity);
+            ScreenShakeManager.Instance.Shake(0.2f, 0.5f);
+            Debug.Log("That was alright!");
+        }
+        else
+        {
+            Debug.Log("Yeah, not great...");
+            ScreenShakeManager.Instance.Shake(0.1f, 0.2f);
+        }
         MinigameEnd();
     }
 }

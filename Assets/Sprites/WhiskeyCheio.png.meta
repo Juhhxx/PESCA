@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WhiskeyCheio_0: -7288966216378178272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

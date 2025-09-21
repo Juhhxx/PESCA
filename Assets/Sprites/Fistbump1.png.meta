@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fistbump1_0: 8518194128401166302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

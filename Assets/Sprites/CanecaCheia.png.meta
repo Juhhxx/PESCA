@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CanecaCheia_0: 4586437987534700973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
