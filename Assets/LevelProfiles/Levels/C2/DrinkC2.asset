@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DrinkC2
   m_EditorClassIdentifier: 
   _levelScene: DrinkingC2
-  <StartMinigame>k__BackingField: 0
-  <StartDelay>k__BackingField: 0
+  <StartMinigame>k__BackingField: 1
+  <StartDelay>k__BackingField: 15
   <NextSceneDelay>k__BackingField: 0
   <BackgroundMusic>k__BackingField: {fileID: 0}

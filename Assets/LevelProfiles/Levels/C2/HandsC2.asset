@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HandsC2
   m_EditorClassIdentifier: 
   _levelScene: HighFiveC2
-  <StartMinigame>k__BackingField: 0
-  <StartDelay>k__BackingField: 0
+  <StartMinigame>k__BackingField: 1
+  <StartDelay>k__BackingField: 24
   <NextSceneDelay>k__BackingField: 0
   <BackgroundMusic>k__BackingField: {fileID: 0}

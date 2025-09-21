@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c683803bfc70af941b6b1fc9f9d33777, type: 3}
   m_Name: DrinkV1
   m_EditorClassIdentifier: 
-  _levelScene: DrinkingC1
+  _levelScene: DrinkingV1
   <StartMinigame>k__BackingField: 1
-  <StartDelay>k__BackingField: 0
+  <StartDelay>k__BackingField: 12
   <NextSceneDelay>k__BackingField: 0
   <BackgroundMusic>k__BackingField: {fileID: 0}
