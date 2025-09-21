@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5874e901d8758234e9eb3c3d73e0cfa1
+guid: 9b8a74acafd3634479182ff697acde99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8018616143854013544
-    second: speechsidegreen_0
+      213: 7210404000630750740
+    second: speechsideorange-export_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: speechsidegreen_0
+      name: speechsideorange-export_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8937e530a1728b090800000000000000
-      internalID: -8018616143854013544
+      spriteID: 41eb6a87c30801460800000000000000
+      internalID: 7210404000630750740
       vertices: []
       indices: 
       edges: []
