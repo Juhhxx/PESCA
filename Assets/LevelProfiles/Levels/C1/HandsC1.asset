@@ -15,5 +15,5 @@ MonoBehaviour:
   _levelScene: HighFiveC1
   <StartMinigame>k__BackingField: 1
   <StartDelay>k__BackingField: 9
-  <NextSceneDelay>k__BackingField: 0
+  <NextSceneDelay>k__BackingField: 3
   <BackgroundMusic>k__BackingField: {fileID: 0}

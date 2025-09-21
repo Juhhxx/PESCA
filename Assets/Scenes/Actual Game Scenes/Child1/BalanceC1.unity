@@ -987,8 +987,10 @@ MonoBehaviour:
   balanceSpeed: 1
   minRandomTime: 0.5
   maxRandomTime: 1.5
-  negRandomAngVel: -20
-  posRandomAngVel: 20
+  negRandomAngVel1: -20
+  posRandomAngVel1: 20
+  negRandomAngVel2: -20
+  posRandomAngVel2: 20
   raceTime: 20
   canControl_P1: 1
   canControl_P2: 1
