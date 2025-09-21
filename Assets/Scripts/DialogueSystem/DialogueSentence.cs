@@ -16,8 +16,10 @@ public class DialogueSentence
 
     [field: SerializeField] public AudioClip Audio { get; private set; }
 
+    [field: AllowNesting]
+    [field: OnValueChanged("ResetDialogue2")]
     [field: SerializeField] public DialogueSide Side { get; private set; }
-    public enum DialogueSide { Left, Right, Both, Center}
+    public enum DialogueSide { Left, Right, Both, Center }
 
     [field: AllowNesting]
     [field: ShowIf("Side", DialogueSide.Both)]
@@ -26,4 +28,6 @@ public class DialogueSentence
     [field: SerializeField] public float TimeToNext { get; private set; }
 
     public UnityEvent OnDialoguePlayed;
+
+    private void ResetDialogue2() => DifferentDialog = false;
 }
