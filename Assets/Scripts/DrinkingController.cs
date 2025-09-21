@@ -24,6 +24,7 @@ public class DrinkingController : MonoBehaviour
     bool canClick = true;
     [SerializeField] Transform drinkSpawnpoint;
     [SerializeField] float drinkSlideSpeed;
+    [SerializeField] Animator animatorButtonHelper;
 
     void Update()
     {
@@ -36,6 +37,7 @@ public class DrinkingController : MonoBehaviour
                 noDrinkPresent = false;
                 currentDrink = Instantiate(drinkObject, drinkSpawnpoint.position, Quaternion.identity);
                 drinkRigidbody = currentDrink.GetComponent<Rigidbody2D>();
+                animatorButtonHelper.SetBool("mustPressW", false);
                 StartCoroutine(SlideDrink(currentDrink.transform.position.x, transform.position.x));
             }
             else
@@ -55,6 +57,7 @@ public class DrinkingController : MonoBehaviour
         {
             Debug.Log("Drink obtained!");
             DrinkItAll();
+            animatorButtonHelper.SetBool("mustPressW", true);
         }
     }
     void DrinkItAll()
