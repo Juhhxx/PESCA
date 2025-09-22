@@ -203,89 +203,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &322856763
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 322856766}
-  - component: {fileID: 322856764}
-  - component: {fileID: 322856765}
-  m_Layer: 0
-  m_Name: TheDrinkerrrr1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &322856764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322856763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c61e3ce4bef265458badfafbbb5817d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  getDrinkKeyCode: 115
-  drinkAllKeyCode: 119
-  getDrinkClicks: 1
-  drinkAllClicks: 5
-  drinkingMinigameScript: {fileID: 340879376}
-  drinkObject: {fileID: 5181676563735314172, guid: c23ec508eab6d924595127fa89402e15, type: 3}
-  emptySprite: {fileID: -2526534824056400287, guid: 2172356e387396343bddbc8b785b158d, type: 3}
-  fullSprite: {fileID: 2686636952566528399, guid: f4e58432587e95940aa3abe3185e9c5d, type: 3}
-  trash: {fileID: 0}
-  drinkThrowForce: {x: -800, y: 1200}
-  drinkRotationForce: 1000
-  drinkSpawnpoint: {fileID: 683214854}
-  drinkSlideSpeed: 10
-  animatorButtonHelper: {fileID: 322856765}
---- !u!95 &322856765
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322856763}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3572c81cdbfa9f048bc320cd428e5e81, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!4 &322856766
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322856763}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.63, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 683214854}
-  - {fileID: 926359549}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &340879375
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,8 +233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HasStarted: 0
-  drinkingControllerScript1: {fileID: 322856764}
-  drinkingControllerScript2: {fileID: 781395388}
+  drinkingControllerScript1: {fileID: 0}
+  drinkingControllerScript2: {fileID: 0}
   drinkGameTime: 30
 --- !u!4 &340879377
 Transform:
@@ -333,37 +250,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &357856767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 357856768}
-  m_Layer: 0
-  m_Name: DrinkSpawnpoint2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &357856768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357856767}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 781395390}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395928083
 GameObject:
@@ -451,6 +337,37 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &409860565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 409860566}
+  m_Layer: 0
+  m_Name: DrinkSpawnpoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &409860566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409860565}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423239813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &509540194
 PrefabInstance:
@@ -618,37 +535,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f2283c9f62001745aefecc274dbd1fa, type: 3}
---- !u!1 &683214853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 683214854}
-  m_Layer: 0
-  m_Name: DrinkSpawnpoint1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &683214854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683214853}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 322856766}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &759093041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -706,7 +592,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e84e8c40cd865e4aa8180fcb06e98b8, type: 3}
---- !u!1 &781395387
+--- !u!1 &970529662
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -714,50 +600,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 781395390}
-  - component: {fileID: 781395388}
-  - component: {fileID: 781395389}
+  - component: {fileID: 970529665}
+  - component: {fileID: 970529664}
+  - component: {fileID: 970529663}
   m_Layer: 0
-  m_Name: TheDrinkerrrr2
+  m_Name: TheDrinkerrrr2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &781395388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781395387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c61e3ce4bef265458badfafbbb5817d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  getDrinkKeyCode: 274
-  drinkAllKeyCode: 273
-  getDrinkClicks: 1
-  drinkAllClicks: 5
-  drinkingMinigameScript: {fileID: 340879376}
-  drinkObject: {fileID: 5181676563735314172, guid: c23ec508eab6d924595127fa89402e15, type: 3}
-  emptySprite: {fileID: -2526534824056400287, guid: 2172356e387396343bddbc8b785b158d, type: 3}
-  fullSprite: {fileID: 2686636952566528399, guid: f4e58432587e95940aa3abe3185e9c5d, type: 3}
-  trash: {fileID: 0}
-  drinkThrowForce: {x: 800, y: 1200}
-  drinkRotationForce: -1000
-  drinkSpawnpoint: {fileID: 357856768}
-  drinkSlideSpeed: 10
-  animatorButtonHelper: {fileID: 781395389}
---- !u!95 &781395389
+--- !u!95 &970529663
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781395387}
+  m_GameObject: {fileID: 970529662}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3572c81cdbfa9f048bc320cd428e5e81, type: 2}
@@ -772,24 +632,50 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &781395390
+--- !u!114 &970529664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970529662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c61e3ce4bef265458badfafbbb5817d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getDrinkKeyCode: 274
+  drinkAllKeyCode: 273
+  getDrinkClicks: 1
+  drinkAllClicks: 5
+  drinkingMinigameScript: {fileID: 0}
+  drinkObject: {fileID: 5181676563735314172, guid: 4227246387103bf46b4d32db935b3422, type: 3}
+  emptySprite: {fileID: -2113233270155345151, guid: ffcd249661c907a4994041d92de21736, type: 3}
+  fullSprite: {fileID: -7288966216378178272, guid: 256b777275876354abe9a1204c3a68f6, type: 3}
+  trash: {fileID: 0}
+  drinkThrowForce: {x: 800, y: 1200}
+  drinkRotationForce: -1000
+  drinkSpawnpoint: {fileID: 1244292670}
+  drinkSlideSpeed: 10
+  animatorButtonHelper: {fileID: 970529663}
+--- !u!4 &970529665
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 781395387}
+  m_GameObject: {fileID: 970529662}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.73, y: -0.3499999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 357856768}
-  - {fileID: 2086172914}
+  - {fileID: 1244292670}
+  - {fileID: 1040096765}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &926359548
+--- !u!1 &1040096764
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -797,8 +683,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 926359549}
-  - component: {fileID: 926359550}
+  - component: {fileID: 1040096765}
+  - component: {fileID: 1040096766}
   m_Layer: 0
   m_Name: ButtonHelper
   m_TagString: Untagged
@@ -806,28 +692,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &926359549
+--- !u!4 &1040096765
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926359548}
+  m_GameObject: {fileID: 1040096764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 322856766}
+  m_Father: {fileID: 970529665}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &926359550
+--- !u!212 &1040096766
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926359548}
+  m_GameObject: {fileID: 1040096764}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -876,6 +762,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1244292669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244292670}
+  m_Layer: 0
+  m_Name: DrinkSpawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1244292670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244292669}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 970529665}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317726540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1000,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2086172913
+--- !u!1 &1401562364
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1091,8 +1008,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2086172914}
-  - component: {fileID: 2086172915}
+  - component: {fileID: 1401562365}
+  - component: {fileID: 1401562366}
   m_Layer: 0
   m_Name: ButtonHelper
   m_TagString: Untagged
@@ -1100,28 +1017,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2086172914
+--- !u!4 &1401562365
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086172913}
+  m_GameObject: {fileID: 1401562364}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 781395390}
+  m_Father: {fileID: 1423239813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2086172915
+--- !u!212 &1401562366
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086172913}
+  m_GameObject: {fileID: 1401562364}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1170,14 +1087,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1423239810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423239813}
+  - component: {fileID: 1423239812}
+  - component: {fileID: 1423239811}
+  m_Layer: 0
+  m_Name: TheDrinkerrrr1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1423239811
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423239810}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3572c81cdbfa9f048bc320cd428e5e81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1423239812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423239810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c61e3ce4bef265458badfafbbb5817d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getDrinkKeyCode: 115
+  drinkAllKeyCode: 119
+  getDrinkClicks: 1
+  drinkAllClicks: 5
+  drinkingMinigameScript: {fileID: 0}
+  drinkObject: {fileID: 5181676563735314172, guid: 4227246387103bf46b4d32db935b3422, type: 3}
+  emptySprite: {fileID: -2113233270155345151, guid: ffcd249661c907a4994041d92de21736, type: 3}
+  fullSprite: {fileID: -7288966216378178272, guid: 256b777275876354abe9a1204c3a68f6, type: 3}
+  trash: {fileID: 0}
+  drinkThrowForce: {x: -800, y: 1200}
+  drinkRotationForce: 1000
+  drinkSpawnpoint: {fileID: 409860566}
+  drinkSlideSpeed: 10
+  animatorButtonHelper: {fileID: 1423239811}
+--- !u!4 &1423239813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423239810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.63, y: -0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 409860566}
+  - {fileID: 1401562365}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 322856766}
   - {fileID: 308253558}
   - {fileID: 1317726545}
-  - {fileID: 781395390}
   - {fileID: 559154836}
   - {fileID: 395928085}
   - {fileID: 340879377}
@@ -1185,3 +1183,5 @@ SceneRoots:
   - {fileID: 574180103}
   - {fileID: 759093041}
   - {fileID: 1334688146}
+  - {fileID: 970529665}
+  - {fileID: 1423239813}

@@ -548,9 +548,9 @@ MonoBehaviour:
   getDrinkClicks: 1
   drinkAllClicks: 5
   drinkingMinigameScript: {fileID: 342839046}
-  drinkObject: {fileID: 5181676563735314172, guid: c23ec508eab6d924595127fa89402e15, type: 3}
-  emptySprite: {fileID: -2526534824056400287, guid: 2172356e387396343bddbc8b785b158d, type: 3}
-  fullSprite: {fileID: 2686636952566528399, guid: f4e58432587e95940aa3abe3185e9c5d, type: 3}
+  drinkObject: {fileID: 5181676563735314172, guid: 0608d2ac4bc046b498f142d366cbf39b, type: 3}
+  emptySprite: {fileID: 7418583117155619208, guid: cc89ec9b3c23fba4193b0ef7b94a6bf1, type: 3}
+  fullSprite: {fileID: 495386454769320475, guid: a51ccb430732e284b88c23f696fcb289, type: 3}
   trash: {fileID: 0}
   drinkThrowForce: {x: 800, y: 1200}
   drinkRotationForce: -1000
@@ -1122,9 +1122,9 @@ MonoBehaviour:
   getDrinkClicks: 1
   drinkAllClicks: 5
   drinkingMinigameScript: {fileID: 342839046}
-  drinkObject: {fileID: 5181676563735314172, guid: c23ec508eab6d924595127fa89402e15, type: 3}
-  emptySprite: {fileID: -2526534824056400287, guid: 2172356e387396343bddbc8b785b158d, type: 3}
-  fullSprite: {fileID: 2686636952566528399, guid: f4e58432587e95940aa3abe3185e9c5d, type: 3}
+  drinkObject: {fileID: 5181676563735314172, guid: 0608d2ac4bc046b498f142d366cbf39b, type: 3}
+  emptySprite: {fileID: 7418583117155619208, guid: cc89ec9b3c23fba4193b0ef7b94a6bf1, type: 3}
+  fullSprite: {fileID: 495386454769320475, guid: a51ccb430732e284b88c23f696fcb289, type: 3}
   trash: {fileID: 0}
   drinkThrowForce: {x: -800, y: 1200}
   drinkRotationForce: 1000
